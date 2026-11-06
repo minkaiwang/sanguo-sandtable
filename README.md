@@ -1,5 +1,7 @@
 # 三国推演志
 
+[下载 Windows 版](https://github.com/minkaiwang/sanguo-sandtable/releases/download/v0.1.0/sanguo-sandbox-v0.1.0-reviewed-windows-x64.zip) · [v0.1.0 发布说明与源码下载](https://github.com/minkaiwang/sanguo-sandtable/releases/tag/v0.1.0)
+
 把人物卡摆到地图上，安排势力、行军路线和事件，记录自己的三国故事。这是一个离线单机沙盘，战事和剧情由玩家裁定。
 
 基础版 v0.1.0 包含90个人物、6个开局、53个地点和66条地点关系。支持人物拖放、编组、纪事、撤销重做、命名快照和沙盘备份。
