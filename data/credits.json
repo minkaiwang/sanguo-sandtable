@@ -1,0 +1,53 @@
+{
+  "schema_version": 1.0,
+  "distribution_boundary": {
+    "status": "local_open_source_candidate",
+    "product_export_configured": true,
+    "public_upload_confirmed": false,
+    "note": "见README与THIRD_PARTY_NOTICES；本地候选待仓库公开确认。"
+  },
+  "sections": [
+    {
+      "id": "game",
+      "paragraphs": [
+        "《三国推演志》是一款单机个人历史沙盘原型。你可以从背包取出人物，把他们放到城池或地图上的自由位置，用势力分组、行动状态、标记、推演线和纪事，摆出属于自己的三国。",
+        "当前版本由玩家编排剧情、裁定战事。人物四维（武力、智力、统率、魅力）由项目独立编制，可在本局覆盖；胜负与策略结算不读取这些数值。AI 功能将在沙盘基础稳定后再考虑接入。",
+        "地图是全国尺度的推演界面。部分汉末城池使用现代城市、遗址或历史地点的代表位置来落点，地点、道路和地形主要服务于沙盘摆放与局势阅读。"
+      ],
+      "title": "游戏说明"
+    },
+    {
+      "id": "sources",
+      "paragraphs": [
+        "历史人物、称谓与背景线索主要参考陈寿《三国志》、范晔《后汉书》及罗贯中《三国演义》。数字文本核对使用维基文库固定版本；古籍原作属于公共领域，维基文库页面内容按 CC BY-SA 4.0 提供。项目只保存引用元数据与短事实整理，不内置古籍全文。",
+        "地点名称与全国尺度锚点综合参考 Wikidata（CC0 1.0）、NGA Geographic Names Server（无许可限制）、GeoNames（CC BY 4.0）、Natural Earth 公共领域地理数据，以及项目的人工核验记录。当前 53 个运行地点的主坐标均通过默认发行门禁；下邳采用古邳镇的开放现代代理，庐江／舒县采用 GNS UFI 14092193 的现代城池村聚落代理。两者都只服务全国尺度阅读，不表示汉末城郭或古址实测中心。",
+        "基础版提供90个人物与6个可自由改写的开局。人物、地理与演义来源分别保留出处，地图代表点不等于古城精确边界。代码与素材的许可、署名见随包THIRD_PARTY_NOTICES。",
+        "全部逐条来源、固定版本、查阅日期、许可状态和使用边界保存在项目的数据登记表与审计文档中；游戏内人物卡、地点札记和历史背景卡只呈现玩家需要阅读的内容。"
+      ],
+      "title": "资料来源"
+    },
+    {
+      "id": "assets_licenses",
+      "paragraphs": [
+        "界面字体使用 Adobe 思源宋体（Source Han Serif），许可为 SIL Open Font License 1.1；发行包需保留随附许可文本。",
+        "地图地形明暗底纹取材于 Natural Earth 1:10m Gray Earth shaded relief（Public Domain），经本项目裁切、着色并按陆地遮罩处理。",
+        "基础版封面为本项目原创亮色SVG；纸纹和山地笔触为项目生成素材，来源及处理记录随源码保留。人物使用姓名名牌。程序化光影与地图差值由项目生成。",
+        "地图关隘纸墨符号由本项目使用独立 SVG 基元绘制。Maki v8.0.0（CC0 1.0）用于小尺寸地图符号的信息密度研究，未并入游戏发行资产。",
+        "保存、设置与读取存档图标选用 Lucide 1.26.0 的 save、settings 和 folder-open 图标，维护者为 Lucide contributors，许可为 ISC。运行版本仅将线条基色调整为白色，再由亮色界面主题调制为深墨／更深墨色，不改变图标路径结构；发行包保留完整许可文本。项目主页：https://github.com/lucide-icons/lucide",
+        "本项目使用 Godot Engine 开发。Godot Engine 以 MIT License 发布。"
+      ],
+      "title": "素材与许可"
+    },
+    {
+      "id": "acknowledgements",
+      "paragraphs": [
+        "感谢维基文库与 Wikidata 贡献者、NGA Geographic Names Server、GeoNames、Natural Earth、Adobe Source Han 项目及 Godot 社区提供可核验的开放资料与工具。",
+        "感谢三国历史地图、时间表与开源资料整理者提供早期研究线索。地点发行数据只采用通过许可与准确性核验的主来源；受限的旧研究坐标仍保留在来源登记中，不会因代理替换而被误标为开放数据。",
+        "本项目源于玩家童年在桌面上用人物卡自由推演三国的经历。感谢所有愿意帮助它保持开放、可摆放、可想象的人。"
+      ],
+      "title": "鸣谢"
+    }
+  ],
+  "title": "说明",
+  "updated_at": "2026-11-06"
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "asset": "map_silk_paper.png",
+  "runtime_path": "res://assets/map_silk_paper.png",
+  "runtime_bytes": 1774654,
+  "generated_size": [
+    1441,
+    1092
+  ],
+  "game_asset_size": [
+    1070,
+    1000
+  ],
+  "generated_at": "2026-07-22",
+  "generator": {
+    "tool": "OpenAI built-in image generation",
+    "mode": "built-in",
+    "model_identifier": "not exposed by tool",
+    "reference_images": [],
+    "external_api_cost": 0
+  },
+  "source_candidate": {
+    "path": "res://tmp/art_generation/map_silk_paper_candidate_v1.png",
+    "bytes": 2221063,
+    "size": [
+      1441,
+      1092
+    ],
+    "sha256": "DEF3E12077FF7639F623D869FFEE6B00B578150ED3D8854E34A46A89FA1C1E26"
+  },
+  "prompt": "Use case: stylized-concept. Asset type: seamless tileable raster texture for a 2D historical strategy-game map background. Create an original, restrained Han-era-inspired pale silk and handmade paper texture, tactile and historical while quiet enough that small dark Chinese city labels, blue rivers, roads, and character tokens stay legible. Matte archival silk-paper blend, subtle natural fibers, faint hand-made grain, original design rather than imitation of a commercial game. Edge-to-edge uniform texture with no focal point, frame, or border. Muted warm parchment, light khaki, pale tea, extremely faint cool-gray fibers, low contrast and saturation. Flat diffuse light. No text, characters, calligraphy, stamps, map outlines, rivers, mountains, cities, roads, icons, people, objects, watermark, logo, folds, tears, holes, burned edges, heavy stains, vignette, high-frequency noise, highlights, or geographic shapes.",
+  "processing": {
+    "source_sha256": "DEF3E12077FF7639F623D869FFEE6B00B578150ED3D8854E34A46A89FA1C1E26",
+    "crop": "center crop x=136, y=0, width=1168, height=1092",
+    "resize": "1070x1000 high-quality bicubic",
+    "asset_sha256": "BFB12C3032ECE2FFDFF4434CE24EFA1BBBD50A66EB4315A98D2CAF5CE612FA3A",
+    "runtime": "drawn once into the static terrain cache; classic_daylight alpha 0.065 and antique_topographic alpha 0.055; no drag-time redraw"
+  },
+  "runtime_alpha": {
+    "classic_daylight": 0.065,
+    "antique_topographic": 0.055
+  },
+  "distribution_review": {
+    "reviewed_at": "2026-09-01",
+    "official_terms_url": "https://openai.com/policies/terms-of-use/",
+    "terms_basis": "As between the user and OpenAI, and to the extent permitted by applicable law, the user owns Output; the user remains responsible for the Input, Output, applicable law, and third-party rights.",
+    "input_rights_basis": "project-authored text prompt with no reference images",
+    "content_review": "abstract low-contrast paper texture; no text, logo, person, brand, geographic geometry, or identifiable commercial-game asset observed",
+    "limitations": "This is a project release-readiness review, not a legal opinion, copyright registration, uniqueness guarantee, or exhaustive third-party similarity search.",
+    "outcome": "approved_for_distribution"
+  },
+  "usage_status": "approved_for_distribution",
+  "usage_note": "Approved for project distribution after source-candidate, prompt, no-reference-input, derivation, runtime-boundary, visual-content, and current OpenAI terms review. Preserve the generated-asset disclosure in credits. The texture must never be used as a source for historical geography."
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "asset_set_id": "lucide_1_26_0_system_icons",
+  "upstream_name": "Lucide",
+  "upstream_version": "1.26.0",
+  "homepage": "https://github.com/lucide-icons/lucide",
+  "version_url": "https://github.com/lucide-icons/lucide/tree/1.26.0",
+  "license": {
+    "id": "ISC",
+    "runtime_path": "res://assets/ui/icons/lucide_1_26_0/LICENSE-lucide-1.26.0.txt",
+    "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.26.0/LICENSE",
+    "sha256": "B495047BD93A9B06913511076F504DABA17D5BBEB3E0650F3BB53A4220329C57",
+    "bytes": 3208
+  },
+  "derivation": {
+    "change": "stroke currentColor -> #FFFFFF",
+    "unchanged": "path geometry, viewBox, width, height and stroke width",
+    "runtime_tint": "normal #332E23; hover/focus/pressed #201A10",
+    "display_size_px": 16
+  },
+  "runtime_status": "active",
+  "usage_status": "approved_for_distribution",
+  "icons": [
+    {
+      "id": "save",
+      "use": "保存当前沙盘",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.26.0/icons/save.svg",
+      "source_sha256": "EE9D56A7FEC4B20DD6689546D41F68219EA8CBD67F99BD17A1BDAFF5BE6EDB53",
+      "runtime_path": "res://assets/ui/icons/lucide_1_26_0/save.svg",
+      "runtime_sha256": "B04005BADEEB90747CD8B62F2BA83DACFE7DCDDAB12B6A543A8367BB85D9E146",
+      "runtime_bytes": 412,
+      "native_size": [
+        24,
+        24
+      ]
+    },
+    {
+      "id": "settings",
+      "use": "设置",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.26.0/icons/settings.svg",
+      "source_sha256": "0AE27FD0F81999229E3127AC96C5B32EDFEA448E291D509E76212B917551D66B",
+      "runtime_path": "res://assets/ui/icons/lucide_1_26_0/settings.svg",
+      "runtime_sha256": "6A1FD85E7D41F991AFC7466668F48CF461D27AF2F26BB963EDF2B4FD86BA56E8",
+      "runtime_bytes": 581,
+      "native_size": [
+        24,
+        24
+      ]
+    },
+    {
+      "id": "folder_open",
+      "use": "读取存档",
+      "source_url": "https://raw.githubusercontent.com/lucide-icons/lucide/1.26.0/icons/folder-open.svg",
+      "source_sha256": "EE57452B40E71DF310214091DD9DA1941A397C83197B8FF8D7AE66DD4242578B",
+      "runtime_path": "res://assets/ui/icons/lucide_1_26_0/folder-open.svg",
+      "runtime_sha256": "F00318D25A78C6D8944748EB92C64770E4958E1CCE96AB2EEE7F0757A5794107",
+      "runtime_bytes": 396,
+      "native_size": [
+        24,
+        24
+      ]
+    }
+  ]
+}

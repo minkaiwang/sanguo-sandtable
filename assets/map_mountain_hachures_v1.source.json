@@ -1,0 +1,66 @@
+{
+  "asset": "res://assets/map_mountain_hachures_v1.png",
+  "runtime_bytes": 340060,
+  "asset_role": "near_zoom_visual_hachure_atlas",
+  "usage_status": "approved_for_distribution",
+  "generated_at": "2026-07-23",
+  "generation": {
+    "tool": "OpenAI built-in image generation",
+    "mode": "built_in",
+    "use_case": "stylized-concept",
+    "reference_images": [],
+    "cost": "no_third_party_api_cost",
+    "prompt": "Use case: stylized-concept\nAsset type: 2x2 atlas of game-map mountain hatching texture patches\nPrimary request: create four distinct sparse mountain-ridge hatching brush clusters, one isolated cluster centered in each quadrant, for a restrained ancient Chinese strategic map overlay\nScene/backdrop: perfectly flat solid #00ff00 chroma-key background for local removal\nSubject: top-left low elongated ridge with sparse dry-brush hatch marks; top-right gentle folded mountain chain; bottom-left layered basin-edge contour strokes; bottom-right broken rocky ridge strokes\nStyle/medium: original hand-drawn Chinese cartographic ink hatching, restrained dry-brush linework, muted dark olive-brown ink, simple bold silhouette that survives reduction, no imitation of any commercial Three Kingdoms game\nComposition/framing: exact 2x2 atlas, four equal quadrants, one compact horizontal cluster per quadrant, generous empty padding, no dividers\nConstraints: background must be one perfectly uniform #00ff00 color with no gradients, paper grain, lighting, shadow, floor, reflection or texture; do not use green or #00ff00 in the ink clusters; no text, no Chinese characters, no labels, no map, no coastline, no rivers, no roads, no cities, no borders, no icons, no watermark; clusters must remain visually subordinate when drawn at low opacity\nAvoid: any red, magenta, purple or bright-colored edge highlights"
+  },
+  "source_candidate": {
+    "path": "res://tmp/art_generation/mountain_hachures_2x2_candidate_v2_chroma.png",
+    "bytes": 1237764,
+    "size": [1254, 1254],
+    "sha256": "B852A7AF3ECBC4D4A8CE38A2DE0EE14450EED94DA8905B477B5CAD7688E08032"
+  },
+  "post_processing": {
+    "tool": "imagegen remove_chroma_key.py",
+    "auto_key": "border",
+    "detected_key": "#0ef907",
+    "soft_matte": true,
+    "transparent_threshold": 12,
+    "opaque_threshold": 220,
+    "despill": true,
+    "edge_contract": 0,
+    "alpha_extrema": [0, 255],
+    "visible_pixel_coverage_above_alpha_24": 0.040255,
+    "transparent_corners": true
+  },
+  "output": {
+    "size": [1254, 1254],
+    "atlas_grid": [2, 2],
+    "sha256": "639587E16846A79C41C3792802723BC59B4758627C9853DA2A785554294FA3B8"
+  },
+  "runtime_boundary": {
+    "placement_source": "data/map_mountains.json anchors and rotation only",
+    "minimum_zoom": 1.4,
+    "tier_target_opacity": {
+      "tier_1": 0.18,
+      "tier_2": 0.15,
+      "tier_3": 0.12
+    },
+    "meaning": "visual brushwork only; not a reconstructed mountain footprint or boundary",
+    "forbidden_uses": [
+      "place coordinates",
+      "mountain boundary reconstruction",
+      "terrain collision",
+      "movement cost",
+      "historical route inference"
+    ]
+  },
+  "distribution_review": {
+    "reviewed_at": "2026-09-01",
+    "official_terms_url": "https://openai.com/policies/terms-of-use/",
+    "terms_basis": "As between the user and OpenAI, and to the extent permitted by applicable law, the user owns Output; the user remains responsible for the Input, Output, applicable law, and third-party rights.",
+    "input_rights_basis": "project-authored text prompt with no reference images",
+    "content_review": "four abstract cartographic brush clusters; no text, logo, person, brand, geographic boundary, or identifiable commercial-game asset observed",
+    "limitations": "This is a project release-readiness review, not a legal opinion, copyright registration, uniqueness guarantee, or exhaustive third-party similarity search.",
+    "outcome": "approved_for_distribution"
+  },
+  "distribution_note": "Approved for project distribution after source-candidate, prompt, no-reference-input, chroma-removal derivation, runtime-boundary, visual-content, and current OpenAI terms review. Preserve the generated-asset disclosure in credits."
+}

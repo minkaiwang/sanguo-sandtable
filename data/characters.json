@@ -1,0 +1,1242 @@
+[
+	{
+		"affiliations": [],
+		"aliases": [
+			"玄德"
+		],
+		"group": "刘备军",
+		"id": "liu_bei",
+		"name": "刘备",
+		"source_refs": [
+			"ws_sgz_032_2583378"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"云长",
+			"长生"
+		],
+		"group": "刘备军",
+		"id": "guan_yu",
+		"name": "关羽",
+		"source_refs": [
+			"ws_sgz_036_2583383"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"益德",
+			"翼德"
+		],
+		"group": "刘备军",
+		"id": "zhang_fei",
+		"name": "张飞",
+		"source_refs": [
+			"ws_sgz_036_2583383",
+			"ws_sgyy_001_2583915"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"宪和"
+		],
+		"group": "刘备军",
+		"id": "jian_yong",
+		"name": "简雍",
+		"source_refs": [
+			"ws_sgz_038_2583387"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"公佑"
+		],
+		"group": "刘备军",
+		"id": "sun_qian",
+		"name": "孙乾",
+		"source_refs": [
+			"ws_sgz_038_2583387"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"子龙"
+		],
+		"group": "刘备军",
+		"id": "zhao_yun",
+		"name": "赵云",
+		"source_refs": [
+			"ws_sgz_036_2583383"
+		]
+	},
+	{
+		"affiliations": [
+			{
+				"authority_character_id": null,
+				"confidence": "source_inferred",
+				"group_id": "huangjin_movement_historical",
+				"id": "aff_zhang_jiao_huangjin_184",
+				"layer": "historical",
+				"period": {
+					"end_year": 184,
+					"note": "中平元年起事；同次讨伐叙事后文记张角已病死，故将该起事群体中的归属边界限定在 184 年内。",
+					"precision": "year",
+					"start_year": 184
+				},
+				"position_title": "天公将军",
+				"relation_type": "leader",
+				"source_locator": "皇甫嵩传黄巾起事段：中平元年，张角等驰敕诸方一时俱起，角称“天公将军”；后文同次讨伐叙事记“角先已病死”",
+				"source_refs": [
+					"ws_hhs_071_2582288"
+				],
+				"uncertainty_note": "原文明确张角发令并自称天公将军，但未直接使用现代字段词“leader”；leader 是依据指挥行为和称号所作的结构化归类，184 年终点来自同年叙事顺序。"
+			}
+		],
+		"aliases": [
+			"大贤良师",
+			"天公将军"
+		],
+		"group": "黄巾军",
+		"id": "zhang_jiao",
+		"name": "张角",
+		"source_refs": [
+			"ws_hhs_071_2582288"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"地公将军"
+		],
+		"group": "黄巾军",
+		"id": "zhang_bao",
+		"name": "张宝",
+		"source_refs": [
+			"ws_hhs_071_2582288"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"人公将军"
+		],
+		"group": "黄巾军",
+		"id": "zhang_liang",
+		"name": "张梁",
+		"source_refs": [
+			"ws_hhs_071_2582288"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [],
+		"group": "黄巾军",
+		"id": "bo_cai",
+		"name": "波才",
+		"source_refs": [
+			"ws_hhs_071_2582288"
+		]
+	},
+	{
+		"affiliations": [
+			{
+				"authority_character_id": null,
+				"confidence": "text_explicit",
+				"group_id": "han_court_historical",
+				"id": "aff_he_jin_han_dajiangjun_184",
+				"layer": "historical",
+				"period": {
+					"end_year": 184,
+					"note": "中平元年黄巾起事段明确记何进被任为大将军并率军屯都亭镇守京师；本条只核验任命年，不把 184 年写成实际卸任年，也不外推其后录尚书事等职权。",
+					"precision": "year",
+					"start_year": 184
+				},
+				"position_title": "大将军",
+				"relation_type": "official",
+				"source_locator": "何进传中平元年段：黄巾贼张角等起，以进为大将军，率左右羽林五营士屯都亭，修理器械，以镇京师",
+				"source_refs": [
+					"ws_hhs_069_2341718"
+				],
+				"uncertainty_note": "原文明载任命、统军与镇守任务，结构化为汉朝历史实体中的 official 任职；年份只表示本条已核任命发生于 184 年，不表示何进当年卸任。人物上级不由上下文自动推断。"
+			}
+		],
+		"aliases": [
+			"遂高"
+		],
+		"group": "汉廷",
+		"id": "he_jin",
+		"name": "何进",
+		"source_refs": [
+			"ws_hhs_069_2341718"
+		]
+	},
+	{
+		"affiliations": [
+			{
+				"authority_character_id": null,
+				"confidence": "text_explicit",
+				"group_id": "han_court_historical",
+				"id": "aff_huangfu_song_han_zuozhonglangjiang_184",
+				"layer": "historical",
+				"period": {
+					"end_year": 184,
+					"note": "中平元年黄巾起事段明确记皇甫嵩被任为左中郎将并持节征讨；只限定该年任职，不外推其后左车骑将军等职务。",
+					"precision": "year",
+					"start_year": 184
+				},
+				"position_title": "左中郎将",
+				"relation_type": "official",
+				"source_locator": "皇甫嵩传中平元年黄巾起事段：于是发天下精兵，博选将帅，以嵩为左中郎将，持节，与右中郎将朱儁，共讨颍川黄巾",
+				"source_refs": [
+					"ws_hhs_071_2582288"
+				],
+				"uncertainty_note": "原文明载职名、持节和征讨任务，结构化为汉朝历史实体中的 official 任职；本条不从原型分类“汉廷”推断归属，不臆造目录人物上级，也不并入皇甫嵩后续官职。"
+			}
+		],
+		"aliases": [
+			"义真"
+		],
+		"group": "汉廷",
+		"id": "huangfu_song",
+		"name": "皇甫嵩",
+		"source_refs": [
+			"ws_hhs_071_2582288"
+		]
+	},
+	{
+		"affiliations": [
+			{
+				"authority_character_id": null,
+				"confidence": "text_explicit",
+				"group_id": "han_court_historical",
+				"id": "aff_zhu_jun_han_zhonglangjiang_184",
+				"layer": "historical",
+				"period": {
+					"end_year": 184,
+					"note": "中平元年黄巾起事段记朱儁拜为右中郎将并持节；《三国志》同年段称中郎将朱儁；只限定该年任职，不外推其后镇贼中郎将等职务。",
+					"precision": "year",
+					"start_year": 184
+				},
+				"position_title": "中郎将",
+				"relation_type": "official",
+				"source_locator": "朱儁传中平元年黄巾起事段：及黄巾起，公卿多荐儁有才略，拜为右中郎将，持节；孙坚传中平元年段：汉朝遣车骑将军皇甫崧、中郎将朱儁将兵讨击之",
+				"source_refs": [
+					"ws_sgz_046_2629010"
+				],
+				"uncertainty_note": "两部正史分别记为“右中郎将”与“中郎将”；为避免把不同文本的职名差异强行抹平，运行缓存采用共同的“中郎将”上位称谓。该记录只表示 184 年汉朝征讨黄巾期间的任职，不把原型分类“汉廷”或朱儁后续官职自动并入。"
+			}
+		],
+		"aliases": [
+			"公伟"
+		],
+		"group": "汉廷",
+		"id": "zhu_jun",
+		"name": "朱儁",
+		"source_refs": [
+			"ws_hhs_071_2582288",
+			"ws_sgz_046_2629010"
+		]
+	},
+	{
+		"affiliations": [
+			{
+				"authority_character_id": null,
+				"confidence": "text_explicit",
+				"group_id": "han_court_historical",
+				"id": "aff_lu_zhi_han_beizhonglangjiang_184",
+				"layer": "historical",
+				"period": {
+					"end_year": 184,
+					"note": "中平元年黄巾起事段明确记卢植被拜为北中郎将并持节征讨；只限定该年任职，不外推其后复为尚书或其他职务。",
+					"precision": "year",
+					"start_year": 184
+				},
+				"position_title": "北中郎将",
+				"relation_type": "official",
+				"source_locator": "卢植传中平元年黄巾起事段：四府举植，拜北中郎将，持节，以护乌桓中郎将宗员副，将北军五校士征之",
+				"source_refs": [
+					"ws_hhs_064_7904632"
+				],
+				"uncertainty_note": "原文明载拜官与征讨任务，结构化为汉朝历史实体中的 official 任职；本条不把卢植的原型分类‘汉廷’或其其他时期官职当作同一归属。"
+			}
+		],
+		"aliases": [
+			"子干"
+		],
+		"group": "汉廷",
+		"id": "lu_zhi",
+		"name": "卢植",
+		"source_refs": [
+			"ws_hhs_064_7904632"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"仲颖"
+		],
+		"group": "群雄",
+		"id": "dong_zhuo",
+		"name": "董卓",
+		"source_refs": [
+			"ws_sgz_006_2132349"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"奉先",
+			"飞将"
+		],
+		"group": "群雄",
+		"id": "lv_bu",
+		"name": "吕布",
+		"source_refs": [
+			"ws_sgz_007_2452141"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"孟德",
+			"吉利",
+			"阿瞒"
+		],
+		"group": "曹氏",
+		"id": "cao_cao",
+		"name": "曹操",
+		"source_refs": [
+			"ws_sgz_001_2585429"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"元让"
+		],
+		"group": "曹氏",
+		"id": "xiahou_dun",
+		"name": "夏侯惇",
+		"source_refs": [
+			"ws_sgz_009_2274283"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"妙才"
+		],
+		"group": "曹氏",
+		"id": "xiahou_yuan",
+		"name": "夏侯渊",
+		"source_refs": [
+			"ws_sgz_009_2274283"
+		]
+	},
+	{
+		"affiliations": [
+			{
+				"authority_character_id": "zhu_jun",
+				"confidence": "text_explicit",
+				"group_id": "han_court_historical",
+				"id": "aff_sun_jian_han_zuojun_sima_184",
+				"layer": "historical",
+				"period": {
+					"end_year": 184,
+					"note": "中平元年段记朱儁表请孙坚为佐军司马；同段后文记战功后改拜别部司马。",
+					"precision": "year",
+					"start_year": 184
+				},
+				"position_title": "佐军司马",
+				"relation_type": "official",
+				"source_locator": "孙坚传中平元年讨黄巾段：朱儁表请坚为佐军司马，与儁并力奋击",
+				"source_refs": [
+					"ws_sgz_046_2629010"
+				],
+				"uncertainty_note": "只结构化 184 年本次任职；不外推孙坚此前或此后的唯一政治归属。authority 字段只表示该职由朱儁表请并随其作战。"
+			}
+		],
+		"aliases": [
+			"文台"
+		],
+		"group": "孙氏",
+		"id": "sun_jian",
+		"name": "孙坚",
+		"source_refs": [
+			"ws_sgz_046_2629010"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"伯符"
+		],
+		"group": "孙氏",
+		"id": "sun_ce",
+		"name": "孙策",
+		"source_refs": [
+			"ws_sgz_046_2629010"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"公覆"
+		],
+		"group": "孙氏",
+		"id": "huang_gai",
+		"name": "黄盖",
+		"source_refs": [
+			"ws_sgz_055_2603286"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"本初"
+		],
+		"group": "群雄",
+		"id": "yuan_shao",
+		"name": "袁绍",
+		"source_refs": [
+			"ws_sgz_006_2132349"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"公路"
+		],
+		"group": "群雄",
+		"id": "yuan_shu",
+		"name": "袁术",
+		"source_refs": [
+			"ws_sgz_006_2132349"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"伯珪"
+		],
+		"group": "群雄",
+		"id": "gongsun_zan",
+		"name": "公孙瓒",
+		"source_refs": [
+			"ws_sgz_008_2086403",
+			"ws_hhs_073_2115635"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"恭祖"
+		],
+		"group": "群雄",
+		"id": "tao_qian",
+		"name": "陶谦",
+		"source_refs": [
+			"ws_sgz_008_2086403"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"景升"
+		],
+		"group": "群雄",
+		"id": "liu_biao",
+		"name": "刘表",
+		"source_refs": [
+			"ws_sgz_006_2132349"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"寿成"
+		],
+		"group": "群雄",
+		"id": "ma_teng",
+		"name": "马腾",
+		"source_refs": [
+			"ws_sgz_036_2583383",
+			"ws_hhs_072_2676948"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"文约",
+			"韩约"
+		],
+		"group": "群雄",
+		"id": "han_sui",
+		"name": "韩遂",
+		"source_refs": [
+			"ws_sgz_001_2585429",
+			"ws_hhs_072_2676948"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"文举",
+			"孔北海"
+		],
+		"group": "群雄",
+		"id": "kong_rong",
+		"name": "孔融",
+		"source_refs": [
+			"ws_hhs_070_2589948"
+		]
+	},
+	{
+		"affiliations": [
+			{
+				"authority_character_id": null,
+				"confidence": "text_explicit",
+				"group_id": "han_court_historical",
+				"id": "aff_wang_yun_han_yuzhou_cishi_184",
+				"layer": "historical",
+				"period": {
+					"end_year": 184,
+					"note": "中平元年黄巾起事段明确记王允被特选拜为豫州刺史；本条只核验任命年，不把 184 年写成实际卸任年，也不外推其后太仆、尚书令、司徒等职务。",
+					"precision": "year",
+					"start_year": 184
+				},
+				"position_title": "豫州刺史",
+				"relation_type": "official",
+				"source_locator": "王允传中平元年黄巾起事段：中平元年，黄巾贼起，特选拜豫州刺史",
+				"source_refs": [
+					"ws_hhs_066_2405344"
+				],
+				"uncertainty_note": "原文明载年份、任命动作与职名，结构化为汉朝历史实体中的 official 任职；184 年只表示本条已核任命发生于该年，不表示王允当年卸任，也不从原型分类“汉廷”或黄巾语境推断目录人物上级。"
+			}
+		],
+		"aliases": [
+			"子师"
+		],
+		"group": "汉廷",
+		"id": "wang_yun",
+		"name": "王允",
+		"source_refs": [
+			"ws_hhs_066_2405344"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [],
+		"group": "群雄",
+		"id": "hua_xiong",
+		"name": "华雄",
+		"source_refs": [
+			"ws_sgz_046_2629010"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"公台"
+		],
+		"group": "群雄",
+		"id": "chen_gong",
+		"name": "陈宫",
+		"source_refs": [
+			"ws_sgz_007_2452141"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"文远"
+		],
+		"group": "群雄",
+		"id": "zhang_liao",
+		"name": "张辽",
+		"source_refs": [
+			"ws_sgz_017_2390639"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"文若"
+		],
+		"group": "曹氏",
+		"id": "xun_yu",
+		"name": "荀彧",
+		"source_refs": [
+			"ws_sgz_010_2274279"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"公瑾",
+			"周郎"
+		],
+		"group": "孙氏",
+		"id": "zhou_yu",
+		"name": "周瑜",
+		"source_refs": [
+			"ws_sgz_054_2387393"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"子义"
+		],
+		"group": "孙氏",
+		"id": "taishi_ci",
+		"name": "太史慈",
+		"source_refs": [
+			"ws_sgz_049_2075209"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"君郎"
+		],
+		"group": "群雄",
+		"id": "liu_yan",
+		"name": "刘焉",
+		"source_refs": [
+			"ws_sgz_031_2471750"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"公祺",
+			"师君"
+		],
+		"group": "群雄",
+		"id": "zhang_lu",
+		"name": "张鲁",
+		"source_refs": [
+			"ws_sgz_008_2086403"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"文和"
+		],
+		"group": "群雄",
+		"id": "jia_xu",
+		"name": "贾诩",
+		"source_refs": [
+			"ws_sgz_010_2274279"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [],
+		"group": "黄巾军",
+		"id": "ma_yuanyi",
+		"name": "马元义",
+		"source_refs": [
+			"ws_hhs_071_2582288"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"神上使"
+		],
+		"group": "黄巾军",
+		"id": "zhang_mancheng",
+		"name": "张曼成",
+		"source_refs": [
+			"ws_hhs_071_2582288"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"飞燕"
+		],
+		"group": "群雄",
+		"id": "zhang_yan",
+		"name": "张燕",
+		"source_refs": [
+			"ws_sgz_008_2086403"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [],
+		"group": "黄巾军",
+		"id": "guan_hai",
+		"name": "管亥",
+		"source_refs": [
+			"ws_hhs_070_2589948"
+		]
+	},
+	{
+		"affiliations": [
+			{
+				"authority_character_id": null,
+				"confidence": "text_explicit",
+				"group_id": "han_court_historical",
+				"id": "aff_liu_hong_han_emperor_168",
+				"layer": "historical",
+				"period": {
+					"end_year": 168,
+					"note": "建宁元年纪文明确记刘宏即皇帝位并改元；本条只核验即位年，不把 168 年写成实际退位或驾崩年，也不外推完整在位期。",
+					"precision": "year",
+					"start_year": 168
+				},
+				"position_title": "皇帝",
+				"relation_type": "leader",
+				"source_locator": "孝灵帝纪建宁元年即位段：建宁元年，庚子，即皇帝位，年十二，改元建宁",
+				"source_refs": [
+					"ws_hhs_008_2457393"
+				],
+				"uncertainty_note": "原文明载即位年份、皇帝位与改元，结构化为汉朝历史实体中的 leader 关系；168 年只表示本条已核即位发生于该年，不表示当年退位或驾崩，也不从原型分类“汉廷”推断其他政治关系。"
+			}
+		],
+		"aliases": [
+			"宏",
+			"大"
+		],
+		"group": "汉廷",
+		"id": "liu_hong",
+		"name": "汉灵帝",
+		"source_refs": [
+			"ws_hhs_008_2457393"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"协",
+			"合",
+			"伯和"
+		],
+		"group": "汉廷",
+		"id": "liu_xie",
+		"name": "汉献帝",
+		"source_refs": [
+			"ws_hhs_009_2676946"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"建阳"
+		],
+		"group": "群雄",
+		"id": "ding_yuan",
+		"name": "丁原",
+		"source_refs": [
+			"ws_hhs_072_2676948"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"稚然"
+		],
+		"group": "群雄",
+		"id": "li_jue",
+		"name": "李傕",
+		"source_refs": [
+			"ws_hhs_072_2676948"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"郭多"
+		],
+		"group": "群雄",
+		"id": "guo_si",
+		"name": "郭汜",
+		"source_refs": [
+			"ws_hhs_072_2676948"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [],
+		"group": "群雄",
+		"id": "xu_rong",
+		"name": "徐荣",
+		"source_refs": [
+			"ws_hhs_072_2676948"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"文节"
+		],
+		"group": "群雄",
+		"id": "han_fu",
+		"name": "韩馥",
+		"source_refs": [
+			"ws_hhs_072_2676948"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"孟卓"
+		],
+		"group": "群雄",
+		"id": "zhang_miao",
+		"name": "张邈",
+		"source_refs": [
+			"ws_sgz_007_2452141"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [],
+		"group": "群雄",
+		"id": "bao_xin",
+		"name": "鲍信",
+		"source_refs": [
+			"ws_sgz_001_2585429"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"公山"
+		],
+		"group": "群雄",
+		"id": "liu_dai",
+		"name": "刘岱",
+		"source_refs": [
+			"ws_hhs_072_2676948"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"伯安"
+		],
+		"group": "群雄",
+		"id": "liu_yu",
+		"name": "刘虞",
+		"source_refs": [
+			"ws_hhs_073_2115635"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"升济",
+			"豹"
+		],
+		"group": "群雄",
+		"id": "gongsun_du",
+		"name": "公孙度",
+		"source_refs": [
+			"ws_sgz_008_2086403"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"稚叔"
+		],
+		"group": "群雄",
+		"id": "zhang_yang",
+		"name": "张杨",
+		"source_refs": [
+			"ws_sgz_008_2086403"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"正礼"
+		],
+		"group": "群雄",
+		"id": "liu_yao",
+		"name": "刘繇",
+		"source_refs": [
+			"ws_sgz_049_2075209"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"威彦"
+		],
+		"group": "群雄",
+		"id": "shi_xie",
+		"name": "士燮",
+		"source_refs": [
+			"ws_sgz_049_2075209"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [],
+		"group": "群雄",
+		"id": "zhang_xiu",
+		"name": "张绣",
+		"source_refs": [
+			"ws_sgz_008_2086403"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"子孝"
+		],
+		"group": "曹氏",
+		"id": "cao_ren",
+		"name": "曹仁",
+		"source_refs": [
+			"ws_sgz_009_2274283"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"仲康"
+		],
+		"group": "曹氏",
+		"id": "xu_chu",
+		"name": "许褚",
+		"source_refs": [
+			"ws_sgz_018_2579680"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"奉孝"
+		],
+		"group": "曹氏",
+		"id": "guo_jia",
+		"name": "郭嘉",
+		"source_refs": [
+			"ws_sgz_014_2374427"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [],
+		"group": "群雄",
+		"id": "yan_liang",
+		"name": "颜良",
+		"source_refs": [
+			"ws_sgz_006_2132349"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [],
+		"group": "群雄",
+		"id": "wen_chou",
+		"name": "文丑",
+		"source_refs": [
+			"ws_sgz_006_2132349"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"元皓"
+		],
+		"group": "群雄",
+		"id": "tian_feng",
+		"name": "田丰",
+		"source_refs": [
+			"ws_sgz_006_2132349"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [],
+		"group": "群雄",
+		"id": "ju_shou",
+		"name": "沮授",
+		"source_refs": [
+			"ws_sgz_006_2132349"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"隽乂"
+		],
+		"group": "曹氏",
+		"id": "zhang_he",
+		"name": "张郃",
+		"source_refs": [
+			"ws_sgz_017_2390639"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"文则"
+		],
+		"group": "曹氏",
+		"id": "yu_jin",
+		"name": "于禁",
+		"source_refs": [
+			"ws_sgz_017_2390639"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"孟起"
+		],
+		"group": "群雄",
+		"id": "ma_chao",
+		"name": "马超",
+		"source_refs": [
+			"ws_sgz_036_2583383"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"仲谋"
+		],
+		"group": "孙氏",
+		"id": "sun_quan",
+		"name": "孙权",
+		"source_refs": [
+			"ws_sgz_047_2602668"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"孔明"
+		],
+		"group": "刘备军",
+		"id": "zhuge_liang",
+		"name": "诸葛亮",
+		"source_refs": [
+			"ws_sgz_035_2115776"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"子敬"
+		],
+		"group": "孙氏",
+		"id": "lu_su",
+		"name": "鲁肃",
+		"source_refs": [
+			"ws_sgz_054_2387393"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"子明"
+		],
+		"group": "孙氏",
+		"id": "lv_meng",
+		"name": "吕蒙",
+		"source_refs": [
+			"ws_sgz_054_2387393"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"兴霸"
+		],
+		"group": "孙氏",
+		"id": "gan_ning",
+		"name": "甘宁",
+		"source_refs": [
+			"ws_sgz_055_2603286"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"德谋"
+		],
+		"group": "孙氏",
+		"id": "cheng_pu",
+		"name": "程普",
+		"source_refs": [
+			"ws_sgz_055_2603286"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"士元"
+		],
+		"group": "刘备军",
+		"id": "pang_tong",
+		"name": "庞统",
+		"source_refs": [
+			"ws_sgz_037_2583384"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"汉升"
+		],
+		"group": "刘备军",
+		"id": "huang_zhong",
+		"name": "黄忠",
+		"source_refs": [
+			"ws_sgz_036_2583383"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"文长"
+		],
+		"group": "刘备军",
+		"id": "wei_yan",
+		"name": "魏延",
+		"source_refs": [
+			"ws_sgz_040_2583390"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"季玉"
+		],
+		"group": "群雄",
+		"id": "liu_zhang",
+		"name": "刘璋",
+		"source_refs": [
+			"ws_sgz_031_2471750"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"公达"
+		],
+		"group": "曹氏",
+		"id": "xun_you",
+		"name": "荀攸",
+		"source_refs": [
+			"ws_sgz_010_2274279"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"公明"
+		],
+		"group": "曹氏",
+		"id": "xu_huang",
+		"name": "徐晃",
+		"source_refs": [
+			"ws_sgz_017_2390639"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"文谦"
+		],
+		"group": "曹氏",
+		"id": "yue_jin",
+		"name": "乐进",
+		"source_refs": [
+			"ws_sgz_017_2390639"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"子廉"
+		],
+		"group": "曹氏",
+		"id": "cao_hong",
+		"name": "曹洪",
+		"source_refs": [
+			"ws_sgz_009_2274283"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"正南"
+		],
+		"group": "群雄",
+		"id": "shen_pei",
+		"name": "审配",
+		"source_refs": [
+			"ws_sgz_006_2132349"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [
+			"子远"
+		],
+		"group": "群雄",
+		"id": "xu_you",
+		"name": "许攸",
+		"source_refs": [
+			"ws_sgz_006_2132349",
+			"ws_hhs_070_2589948"
+		]
+	},
+	{
+		"affiliations": [],
+		"aliases": [],
+		"group": "群雄",
+		"id": "gao_lan",
+		"name": "高览",
+		"source_refs": [
+			"ws_sgz_001_2585429"
+		]
+	},
+	{
+		"id": "zou_jing",
+		"name": "邹靖",
+		"group": "群雄",
+		"aliases": [],
+		"affiliations": [],
+		"source_refs": [
+			"ws_sgz_032_2583378"
+		]
+	},
+	{
+		"id": "zhang_shiping",
+		"name": "张世平",
+		"group": "群雄",
+		"aliases": [],
+		"affiliations": [],
+		"source_refs": [
+			"ws_sgz_032_2583378"
+		]
+	},
+	{
+		"id": "su_shuang",
+		"name": "苏双",
+		"group": "群雄",
+		"aliases": [],
+		"affiliations": [],
+		"source_refs": [
+			"ws_sgz_032_2583378"
+		]
+	}
+]

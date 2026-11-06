@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "asset_id": "pass_paper_ink_v1",
+  "asset_role": "runtime_pass_place_symbol",
+  "runtime_status": "active_controlled_ab",
+  "usage_status": "approved_for_distribution",
+  "runtime_path": "res://assets/map/place_symbols/pass_paper_ink_v1.svg",
+  "runtime_bytes": 502,
+  "runtime_sha256": "FF0A007FA3881E5F470C2F1A50F8DA8F849BFEBD9F1274EF5F38A626160DAF03",
+  "view_box": [0, 0, 96, 96],
+  "display_size_px": 18,
+  "raster_metrics_18": {
+    "size": [18, 18],
+    "visible_bbox": [1, 1, 16, 16],
+    "visible_pixel_count": 208,
+    "transparent_pixel_count": 116,
+    "semi_transparent_pixel_count": 44,
+    "solid_pixel_count": 164,
+    "edge_visible_pixel_count": 0
+  },
+  "runtime_scope": "test_or_capture_pass_middle_near_ab_only_lazy_loaded",
+  "default_variant": "programmatic_v3",
+  "far_fallback": "programmatic_v3",
+  "persistent": false,
+  "visual_only": true,
+  "candidate": {
+    "candidate_set_id": "a33_10_original_place_symbols",
+    "candidate_id": "original_pass",
+    "candidate_path": "res://artifacts/asset_candidates/a33_10/originals/pass_paper_ink_v1.svg",
+    "candidate_bytes": 502,
+    "candidate_sha256": "FF0A007FA3881E5F470C2F1A50F8DA8F849BFEBD9F1274EF5F38A626160DAF03",
+    "promotion_method": "byte_identical_controlled_copy"
+  },
+  "origin_type": "project_original",
+  "license_classification": "project_original",
+  "production_method": "hand_authored_svg_primitives",
+  "production_tool": "OpenAI Codex apply_patch",
+  "external_asset_pixels_used": false,
+  "reference_images": [],
+  "copied_geometry": false,
+  "originality_statement": "由圆形纸印、两侧山肩与中央门洞独立构成；未复用或描摹 Maki gate 路径、折门轮廓或 15×15 比例。",
+  "semantic_reference": {
+    "name": "Maki",
+    "version": "8.0.0",
+    "license_id": "CC0-1.0",
+    "role": "semantic_and_information_density_reference_only",
+    "maki_included_in_runtime_asset": false,
+    "no_trace": true,
+    "no_source_layer_reuse": true,
+    "no_reference_image_input": true
+  },
+  "runtime_boundaries": [
+    "pass_visual_only",
+    "middle_and_near_only",
+    "no_place_or_route_changes",
+    "no_coordinate_or_tier_changes",
+    "no_snap_hover_or_hit_changes",
+    "no_save_or_settings_persistence",
+    "no_strategy_movement_or_combat"
+  ],
+  "rollback": [
+    "restore default programmatic_v3 variant",
+    "remove runtime SVG and source sidecar",
+    "keep A33-10 candidate evidence unchanged",
+    "no save migration required"
+  ],
+  "promoted_at": "2026-07-24"
+}

@@ -1,0 +1,2266 @@
+{
+	"claims": [
+		{
+			"character_id": "liu_bei",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "liu_bei_identity_historical",
+			"layer": "historical",
+			"source_locator": "先主刘备首段：先主姓刘，讳备，字玄德",
+			"source_refs": [
+				"ws_sgz_032_2583378"
+			],
+			"value": "刘备"
+		},
+		{
+			"character_id": "guan_yu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "guan_yu_identity_historical",
+			"layer": "historical",
+			"source_locator": "关羽传首段：关羽字云长，本字长生",
+			"source_refs": [
+				"ws_sgz_036_2583383"
+			],
+			"value": "关羽"
+		},
+		{
+			"character_id": "zhang_fei",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_fei_identity_historical",
+			"layer": "historical",
+			"source_locator": "张飞传首段：张飞字益德",
+			"source_refs": [
+				"ws_sgz_036_2583383"
+			],
+			"value": "张飞"
+		},
+		{
+			"character_id": "cao_cao",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "cao_cao_identity_historical",
+			"layer": "historical",
+			"source_locator": "武帝纪首段（陈寿正文）：姓曹，讳操，字孟德",
+			"source_refs": [
+				"ws_sgz_001_2585429"
+			],
+			"value": "曹操"
+		},
+		{
+			"character_id": "sun_jian",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "sun_jian_identity_historical",
+			"layer": "historical",
+			"source_locator": "孙坚传首段：孙坚字文台，吴郡富春人",
+			"source_refs": [
+				"ws_sgz_046_2629010"
+			],
+			"value": "孙坚"
+		},
+		{
+			"character_id": "zhao_yun",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhao_yun_identity_historical",
+			"layer": "historical",
+			"source_locator": "赵云传首段：赵云字子龙，常山真定人",
+			"source_refs": [
+				"ws_sgz_036_2583383"
+			],
+			"value": "赵云"
+		},
+		{
+			"character_id": "zhang_jiao",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_jiao_identity_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传黄巾起事段：巨鹿张角自称“大贤良师”",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "张角"
+		},
+		{
+			"character_id": "dong_zhuo",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "dong_zhuo_identity_historical",
+			"layer": "historical",
+			"source_locator": "董卓传首段：董卓字仲颖，陇西临洮人",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "董卓"
+		},
+		{
+			"character_id": "lv_bu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "lv_bu_identity_historical",
+			"layer": "historical",
+			"source_locator": "吕布传首段：吕布字奉先，五原郡九原人",
+			"source_refs": [
+				"ws_sgz_007_2452141"
+			],
+			"value": "吕布"
+		},
+		{
+			"character_id": "liu_bei",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_bei_alias_xuande_historical",
+			"layer": "historical",
+			"source_locator": "先主刘备首段：字玄德",
+			"source_refs": [
+				"ws_sgz_032_2583378"
+			],
+			"value": "玄德"
+		},
+		{
+			"character_id": "guan_yu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "guan_yu_alias_yunchang_historical",
+			"layer": "historical",
+			"source_locator": "关羽传首段：字云长",
+			"source_refs": [
+				"ws_sgz_036_2583383"
+			],
+			"value": "云长"
+		},
+		{
+			"character_id": "guan_yu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "guan_yu_alias_changsheng_historical",
+			"layer": "historical",
+			"source_locator": "关羽传首段：本字长生",
+			"source_refs": [
+				"ws_sgz_036_2583383"
+			],
+			"value": "长生"
+		},
+		{
+			"character_id": "zhang_fei",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_fei_alias_yide_historical",
+			"layer": "historical",
+			"source_locator": "张飞传首段：字益德",
+			"source_refs": [
+				"ws_sgz_036_2583383"
+			],
+			"value": "益德"
+		},
+		{
+			"character_id": "zhang_fei",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_fei_alias_yide_romance",
+			"layer": "romance",
+			"source_locator": "第一回：张飞自称字翼德",
+			"source_refs": [
+				"ws_sgyy_001_2583915"
+			],
+			"value": "翼德"
+		},
+		{
+			"character_id": "cao_cao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "cao_cao_alias_mengde_historical",
+			"layer": "historical",
+			"source_locator": "武帝纪首段（陈寿正文）：姓曹，讳操，字孟德",
+			"source_refs": [
+				"ws_sgz_001_2585429"
+			],
+			"value": "孟德"
+		},
+		{
+			"character_id": "cao_cao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "cao_cao_alias_jili_historical",
+			"layer": "historical",
+			"source_locator": "武帝纪首段裴松之注引《曹瞒传》：太祖一名吉利",
+			"source_refs": [
+				"ws_sgz_001_2585429"
+			],
+			"value": "吉利"
+		},
+		{
+			"character_id": "cao_cao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "cao_cao_alias_aman_historical",
+			"layer": "historical",
+			"source_locator": "武帝纪首段裴松之注引《曹瞒传》：小字阿瞞",
+			"source_refs": [
+				"ws_sgz_001_2585429"
+			],
+			"value": "阿瞒"
+		},
+		{
+			"character_id": "sun_jian",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "sun_jian_alias_wentai_historical",
+			"layer": "historical",
+			"source_locator": "孙坚传首段：孫堅字文臺",
+			"source_refs": [
+				"ws_sgz_046_2629010"
+			],
+			"value": "文台"
+		},
+		{
+			"character_id": "zhao_yun",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhao_yun_alias_zilong_historical",
+			"layer": "historical",
+			"source_locator": "赵云传首段：趙雲字子龍",
+			"source_refs": [
+				"ws_sgz_036_2583383"
+			],
+			"value": "子龙"
+		},
+		{
+			"character_id": "zhang_jiao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_jiao_alias_daxianliangshi_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传黄巾起事段：张角自称“大贤良师”",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "大贤良师"
+		},
+		{
+			"character_id": "zhang_jiao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_jiao_alias_tiangongjiangjun_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传黄巾起事段：角称“天公将军”",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "天公将军"
+		},
+		{
+			"character_id": "dong_zhuo",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "dong_zhuo_alias_zhongying_historical",
+			"layer": "historical",
+			"source_locator": "董卓传首段：字仲颖",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "仲颖"
+		},
+		{
+			"character_id": "lv_bu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "lv_bu_alias_fengxian_historical",
+			"layer": "historical",
+			"source_locator": "吕布传首段：字奉先",
+			"source_refs": [
+				"ws_sgz_007_2452141"
+			],
+			"value": "奉先"
+		},
+		{
+			"character_id": "lv_bu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "lv_bu_alias_feijiang_historical",
+			"layer": "historical",
+			"source_locator": "吕布传第二段：号为飞将",
+			"source_refs": [
+				"ws_sgz_007_2452141"
+			],
+			"value": "飞将"
+		},
+		{
+			"character_id": "zhang_jiao",
+			"confidence": "source_inferred",
+			"field": "affiliation",
+			"id": "zhang_jiao_affiliation_huangjin_184_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传黄巾起事段：中平元年，张角等驰敕诸方一时俱起，角称“天公将军”；后文同次讨伐叙事记“角先已病死”",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "aff_zhang_jiao_huangjin_184"
+		},
+		{
+			"character_id": "sun_jian",
+			"confidence": "text_explicit",
+			"field": "affiliation",
+			"id": "sun_jian_affiliation_han_court_184_historical",
+			"layer": "historical",
+			"source_locator": "孙坚传中平元年讨黄巾段：朱儁表请坚为佐军司马，与儁并力奋击",
+			"source_refs": [
+				"ws_sgz_046_2629010"
+			],
+			"value": "aff_sun_jian_han_zuojun_sima_184"
+		},
+		{
+			"character_id": "wang_yun",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "wang_yun_identity_historical",
+			"layer": "historical",
+			"source_locator": "王允传首段：王允字子师，太原祁人也",
+			"source_refs": [
+				"ws_hhs_066_2405344"
+			],
+			"value": "王允"
+		},
+		{
+			"character_id": "wang_yun",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "wang_yun_alias_zishi_historical",
+			"layer": "historical",
+			"source_locator": "王允传首段：王允字子师，太原祁人也",
+			"source_refs": [
+				"ws_hhs_066_2405344"
+			],
+			"value": "子师"
+		},
+		{
+			"character_id": "wang_yun",
+			"confidence": "text_explicit",
+			"field": "affiliation",
+			"id": "wang_yun_affiliation_han_court_184_historical",
+			"layer": "historical",
+			"source_locator": "王允传中平元年黄巾起事段：中平元年，黄巾贼起，特选拜豫州刺史",
+			"source_refs": [
+				"ws_hhs_066_2405344"
+			],
+			"value": "aff_wang_yun_han_yuzhou_cishi_184"
+		},
+		{
+			"character_id": "hua_xiong",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "hua_xiong_identity_historical",
+			"layer": "historical",
+			"source_locator": "孙坚传阳人交战段：大破卓军，枭其都督华雄等",
+			"source_refs": [
+				"ws_sgz_046_2629010"
+			],
+			"value": "华雄"
+		},
+		{
+			"character_id": "chen_gong",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "chen_gong_identity_historical",
+			"layer": "historical",
+			"source_locator": "吕布传陈宫小节裴注引鱼氏《典略》：陈宫字公台，东郡人也",
+			"source_refs": [
+				"ws_sgz_007_2452141"
+			],
+			"value": "陈宫"
+		},
+		{
+			"character_id": "chen_gong",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "chen_gong_alias_gongtai_historical",
+			"layer": "historical",
+			"source_locator": "吕布传陈宫小节裴注引鱼氏《典略》：陈宫字公台，东郡人也",
+			"source_refs": [
+				"ws_sgz_007_2452141"
+			],
+			"value": "公台"
+		},
+		{
+			"character_id": "zhang_liao",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_liao_identity_historical",
+			"layer": "historical",
+			"source_locator": "张辽传首段：张辽字文远，雁门马邑人也",
+			"source_refs": [
+				"ws_sgz_017_2390639"
+			],
+			"value": "张辽"
+		},
+		{
+			"character_id": "zhang_liao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_liao_alias_wenyuan_historical",
+			"layer": "historical",
+			"source_locator": "张辽传首段：张辽字文远，雁门马邑人也",
+			"source_refs": [
+				"ws_sgz_017_2390639"
+			],
+			"value": "文远"
+		},
+		{
+			"character_id": "xun_yu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "xun_yu_identity_historical",
+			"layer": "historical",
+			"source_locator": "荀彧传首段：荀彧字文若，颍川颍阴人也",
+			"source_refs": [
+				"ws_sgz_010_2274279"
+			],
+			"value": "荀彧"
+		},
+		{
+			"character_id": "xun_yu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "xun_yu_alias_wenruo_historical",
+			"layer": "historical",
+			"source_locator": "荀彧传首段：荀彧字文若，颍川颍阴人也",
+			"source_refs": [
+				"ws_sgz_010_2274279"
+			],
+			"value": "文若"
+		},
+		{
+			"character_id": "zhou_yu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhou_yu_identity_historical",
+			"layer": "historical",
+			"source_locator": "周瑜传首段：周瑜字公瑾，庐江舒人也",
+			"source_refs": [
+				"ws_sgz_054_2387393"
+			],
+			"value": "周瑜"
+		},
+		{
+			"character_id": "zhou_yu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhou_yu_alias_gongjin_historical",
+			"layer": "historical",
+			"source_locator": "周瑜传首段：周瑜字公瑾，庐江舒人也",
+			"source_refs": [
+				"ws_sgz_054_2387393"
+			],
+			"value": "公瑾"
+		},
+		{
+			"character_id": "zhou_yu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhou_yu_alias_zhoulang_historical",
+			"layer": "historical",
+			"source_locator": "周瑜传受建威中郎将段：吴中皆呼为周郎",
+			"source_refs": [
+				"ws_sgz_054_2387393"
+			],
+			"value": "周郎"
+		},
+		{
+			"character_id": "taishi_ci",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "taishi_ci_identity_historical",
+			"layer": "historical",
+			"source_locator": "太史慈传首段：太史慈字子义，东莱黄人也",
+			"source_refs": [
+				"ws_sgz_049_2075209"
+			],
+			"value": "太史慈"
+		},
+		{
+			"character_id": "taishi_ci",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "taishi_ci_alias_ziyi_historical",
+			"layer": "historical",
+			"source_locator": "太史慈传首段：太史慈字子义，东莱黄人也",
+			"source_refs": [
+				"ws_sgz_049_2075209"
+			],
+			"value": "子义"
+		},
+		{
+			"character_id": "liu_yan",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "liu_yan_identity_historical",
+			"layer": "historical",
+			"source_locator": "刘焉传首段：刘焉字君郎，江夏竟陵人也",
+			"source_refs": [
+				"ws_sgz_031_2471750"
+			],
+			"value": "刘焉"
+		},
+		{
+			"character_id": "liu_yan",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_yan_alias_junlang_historical",
+			"layer": "historical",
+			"source_locator": "刘焉传首段：刘焉字君郎，江夏竟陵人也",
+			"source_refs": [
+				"ws_sgz_031_2471750"
+			],
+			"value": "君郎"
+		},
+		{
+			"character_id": "zhang_lu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_lu_identity_historical",
+			"layer": "historical",
+			"source_locator": "张鲁传首段：张鲁字公祺，沛国丰人也",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "张鲁"
+		},
+		{
+			"character_id": "zhang_lu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_lu_alias_gongqi_historical",
+			"layer": "historical",
+			"source_locator": "张鲁传首段：张鲁字公祺，沛国丰人也",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "公祺"
+		},
+		{
+			"character_id": "zhang_lu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_lu_alias_shijun_historical",
+			"layer": "historical",
+			"source_locator": "张鲁传据汉中段：鲁遂据汉中，以鬼道教民，自号师君",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "师君"
+		},
+		{
+			"character_id": "jia_xu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "jia_xu_identity_historical",
+			"layer": "historical",
+			"source_locator": "贾诩传首段：贾诩字文和，武威姑臧人也",
+			"source_refs": [
+				"ws_sgz_010_2274279"
+			],
+			"value": "贾诩"
+		},
+		{
+			"character_id": "jia_xu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "jia_xu_alias_wenhe_historical",
+			"layer": "historical",
+			"source_locator": "贾诩传首段：贾诩字文和，武威姑臧人也",
+			"source_refs": [
+				"ws_sgz_010_2274279"
+			],
+			"value": "文和"
+		},
+		{
+			"character_id": "jian_yong",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "jian_yong_identity_historical",
+			"layer": "historical",
+			"source_locator": "简雍传首段：简雍字宪和，涿郡人也",
+			"source_refs": [
+				"ws_sgz_038_2583387"
+			],
+			"value": "简雍"
+		},
+		{
+			"character_id": "jian_yong",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "jian_yong_alias_xianhe_historical",
+			"layer": "historical",
+			"source_locator": "简雍传首段：简雍字宪和，涿郡人也",
+			"source_refs": [
+				"ws_sgz_038_2583387"
+			],
+			"value": "宪和"
+		},
+		{
+			"character_id": "zhang_bao",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_bao_identity_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传黄巾起事段：角弟宝称“地公将军”",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "张宝"
+		},
+		{
+			"character_id": "zhang_bao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_bao_alias_digong_jiangjun_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传黄巾起事段：角弟宝称“地公将军”",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "地公将军"
+		},
+		{
+			"character_id": "huangfu_song",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "huangfu_song_identity_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传首段：皇甫嵩字义真，安定朝那人",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "皇甫嵩"
+		},
+		{
+			"character_id": "huangfu_song",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "huangfu_song_alias_yizhen_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传首段：皇甫嵩字义真，安定朝那人",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "义真"
+		},
+		{
+			"character_id": "xiahou_dun",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "xiahou_dun_identity_historical",
+			"layer": "historical",
+			"source_locator": "夏侯惇传首段：夏侯惇字元让，沛国谯人",
+			"source_refs": [
+				"ws_sgz_009_2274283"
+			],
+			"value": "夏侯惇"
+		},
+		{
+			"character_id": "xiahou_dun",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "xiahou_dun_alias_yuanrang_historical",
+			"layer": "historical",
+			"source_locator": "夏侯惇传首段：夏侯惇字元让，沛国谯人",
+			"source_refs": [
+				"ws_sgz_009_2274283"
+			],
+			"value": "元让"
+		},
+		{
+			"character_id": "xiahou_yuan",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "xiahou_yuan_identity_historical",
+			"layer": "historical",
+			"source_locator": "夏侯渊传首段：夏侯渊字妙才，惇族弟也",
+			"source_refs": [
+				"ws_sgz_009_2274283"
+			],
+			"value": "夏侯渊"
+		},
+		{
+			"character_id": "xiahou_yuan",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "xiahou_yuan_alias_miaocai_historical",
+			"layer": "historical",
+			"source_locator": "夏侯渊传首段：夏侯渊字妙才，惇族弟也",
+			"source_refs": [
+				"ws_sgz_009_2274283"
+			],
+			"value": "妙才"
+		},
+		{
+			"character_id": "sun_ce",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "sun_ce_identity_historical",
+			"layer": "historical",
+			"source_locator": "孙策传首段：策字伯符",
+			"source_refs": [
+				"ws_sgz_046_2629010"
+			],
+			"value": "孙策"
+		},
+		{
+			"character_id": "sun_ce",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "sun_ce_alias_bofu_historical",
+			"layer": "historical",
+			"source_locator": "孙策传首段：策字伯符",
+			"source_refs": [
+				"ws_sgz_046_2629010"
+			],
+			"value": "伯符"
+		},
+		{
+			"character_id": "huang_gai",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "huang_gai_identity_historical",
+			"layer": "historical",
+			"source_locator": "黄盖传首段：黄盖字公覆，零陵泉陵人也",
+			"source_refs": [
+				"ws_sgz_055_2603286"
+			],
+			"value": "黄盖"
+		},
+		{
+			"character_id": "huang_gai",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "huang_gai_alias_gongfu_historical",
+			"layer": "historical",
+			"source_locator": "黄盖传首段：黄盖字公覆，零陵泉陵人也",
+			"source_refs": [
+				"ws_sgz_055_2603286"
+			],
+			"value": "公覆"
+		},
+		{
+			"character_id": "yuan_shao",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "yuan_shao_identity_historical",
+			"layer": "historical",
+			"source_locator": "袁绍传首段：袁绍字本初，汝南汝阳人也",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "袁绍"
+		},
+		{
+			"character_id": "yuan_shao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "yuan_shao_alias_benchu_historical",
+			"layer": "historical",
+			"source_locator": "袁绍传首段：袁绍字本初，汝南汝阳人也",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "本初"
+		},
+		{
+			"character_id": "yuan_shu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "yuan_shu_identity_historical",
+			"layer": "historical",
+			"source_locator": "袁术传首段：袁术字公路，司空逢子",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "袁术"
+		},
+		{
+			"character_id": "yuan_shu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "yuan_shu_alias_gonglu_historical",
+			"layer": "historical",
+			"source_locator": "袁术传首段：袁术字公路，司空逢子",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "公路"
+		},
+		{
+			"character_id": "liu_biao",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "liu_biao_identity_historical",
+			"layer": "historical",
+			"source_locator": "刘表传首段：刘表字景升，山阳高平人也",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "刘表"
+		},
+		{
+			"character_id": "liu_biao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_biao_alias_jingsheng_historical",
+			"layer": "historical",
+			"source_locator": "刘表传首段：刘表字景升，山阳高平人也",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "景升"
+		},
+		{
+			"character_id": "sun_qian",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "sun_qian_identity_historical",
+			"layer": "historical",
+			"source_locator": "孙乾传首段：孙乾字公佑，北海人也",
+			"source_refs": [
+				"ws_sgz_038_2583387"
+			],
+			"value": "孙乾"
+		},
+		{
+			"character_id": "sun_qian",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "sun_qian_alias_gongyou_historical",
+			"layer": "historical",
+			"source_locator": "孙乾传首段：孙乾字公佑，北海人也",
+			"source_refs": [
+				"ws_sgz_038_2583387"
+			],
+			"value": "公佑"
+		},
+		{
+			"character_id": "zhang_liang",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_liang_identity_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传黄巾起事段：宝弟梁称“人公将军”",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "张梁"
+		},
+		{
+			"character_id": "zhang_liang",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_liang_alias_rengong_jiangjun_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传黄巾起事段：宝弟梁称“人公将军”",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "人公将军"
+		},
+		{
+			"character_id": "bo_cai",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "bo_cai_identity_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传长社之战段：朱儁前与贼波才战，战败",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "波才"
+		},
+		{
+			"character_id": "he_jin",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "he_jin_identity_historical",
+			"layer": "historical",
+			"source_locator": "何进传首段：何进字遂高，南阳宛人也",
+			"source_refs": [
+				"ws_hhs_069_2341718"
+			],
+			"value": "何进"
+		},
+		{
+			"character_id": "he_jin",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "he_jin_alias_suigao_historical",
+			"layer": "historical",
+			"source_locator": "何进传首段：何进字遂高，南阳宛人也",
+			"source_refs": [
+				"ws_hhs_069_2341718"
+			],
+			"value": "遂高"
+		},
+		{
+			"character_id": "he_jin",
+			"confidence": "text_explicit",
+			"field": "affiliation",
+			"id": "he_jin_affiliation_han_court_184_historical",
+			"layer": "historical",
+			"source_locator": "何进传中平元年段：黄巾贼张角等起，以进为大将军，率左右羽林五营士屯都亭，修理器械，以镇京师",
+			"source_refs": [
+				"ws_hhs_069_2341718"
+			],
+			"value": "aff_he_jin_han_dajiangjun_184"
+		},
+		{
+			"character_id": "zhu_jun",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhu_jun_identity_historical",
+			"layer": "historical",
+			"source_locator": "朱儁传首段：朱儁字公伟，会稽上虞人也",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "朱儁"
+		},
+		{
+			"character_id": "zhu_jun",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhu_jun_alias_gongwei_historical",
+			"layer": "historical",
+			"source_locator": "朱儁传首段：朱儁字公伟，会稽上虞人也",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "公伟"
+		},
+		{
+			"character_id": "huangfu_song",
+			"confidence": "text_explicit",
+			"field": "affiliation",
+			"id": "huangfu_song_affiliation_han_court_184_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传中平元年黄巾起事段：于是发天下精兵，博选将帅，以嵩为左中郎将，持节，与右中郎将朱儁，共讨颍川黄巾",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "aff_huangfu_song_han_zuozhonglangjiang_184"
+		},
+		{
+			"character_id": "lu_zhi",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "lu_zhi_identity_historical",
+			"layer": "historical",
+			"source_locator": "卢植传首段：卢植字子幹，涿郡涿人也",
+			"source_refs": [
+				"ws_hhs_064_7904632"
+			],
+			"value": "卢植"
+		},
+		{
+			"character_id": "lu_zhi",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "lu_zhi_alias_zigan_historical",
+			"layer": "historical",
+			"source_locator": "卢植传首段：卢植字子幹，涿郡涿人也；检索值规范为简体“子干”",
+			"source_refs": [
+				"ws_hhs_064_7904632"
+			],
+			"value": "子干"
+		},
+		{
+			"character_id": "gongsun_zan",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "gongsun_zan_identity_historical",
+			"layer": "historical",
+			"source_locator": "《三国志》公孙瓒传与《后汉书》同传首段：公孙瓒字伯珪，辽西令支人也",
+			"source_refs": [
+				"ws_sgz_008_2086403",
+				"ws_hhs_073_2115635"
+			],
+			"value": "公孙瓒"
+		},
+		{
+			"character_id": "gongsun_zan",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "gongsun_zan_alias_bogui_historical",
+			"layer": "historical",
+			"source_locator": "《三国志》公孙瓒传与《后汉书》同传首段：公孙瓒字伯珪",
+			"source_refs": [
+				"ws_sgz_008_2086403",
+				"ws_hhs_073_2115635"
+			],
+			"value": "伯珪"
+		},
+		{
+			"character_id": "tao_qian",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "tao_qian_identity_historical",
+			"layer": "historical",
+			"source_locator": "陶谦传首段：陶谦字恭祖，丹杨人",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "陶谦"
+		},
+		{
+			"character_id": "tao_qian",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "tao_qian_alias_gongzu_historical",
+			"layer": "historical",
+			"source_locator": "陶谦传首段：陶谦字恭祖，丹杨人",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "恭祖"
+		},
+		{
+			"character_id": "ma_teng",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "ma_teng_identity_historical",
+			"layer": "historical",
+			"source_locator": "马超传正文称父腾；裴松之注引《典略》与《后汉书》董卓传注均载“腾字寿成”",
+			"source_refs": [
+				"ws_sgz_036_2583383",
+				"ws_hhs_072_2676948"
+			],
+			"value": "马腾"
+		},
+		{
+			"character_id": "ma_teng",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "ma_teng_alias_shoucheng_historical",
+			"layer": "historical",
+			"source_locator": "裴松之注引《典略》及李贤注引《典略》：腾字寿成",
+			"source_refs": [
+				"ws_sgz_036_2583383",
+				"ws_hhs_072_2676948"
+			],
+			"value": "寿成"
+		},
+		{
+			"character_id": "han_sui",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "han_sui_identity_historical",
+			"layer": "historical",
+			"source_locator": "武帝纪称金城边章、韩遂；董卓传中平元年条亦称金城人边章、韩遂",
+			"source_refs": [
+				"ws_sgz_001_2585429",
+				"ws_hhs_072_2676948"
+			],
+			"value": "韩遂"
+		},
+		{
+			"character_id": "han_sui",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "han_sui_alias_wenyue_historical",
+			"layer": "historical",
+			"source_locator": "裴松之注引《典略》：遂字文约",
+			"source_refs": [
+				"ws_sgz_001_2585429"
+			],
+			"value": "文约"
+		},
+		{
+			"character_id": "han_sui",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "han_sui_alias_hanyue_historical",
+			"layer": "historical",
+			"source_locator": "李贤注引《献帝春秋》：从事韩约；“约”改为“遂”",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "韩约"
+		},
+		{
+			"character_id": "kong_rong",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "kong_rong_identity_historical",
+			"layer": "historical",
+			"source_locator": "孔融传首段：孔融字文举，鲁国人",
+			"source_refs": [
+				"ws_hhs_070_2589948"
+			],
+			"value": "孔融"
+		},
+		{
+			"character_id": "kong_rong",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "kong_rong_alias_wenju_historical",
+			"layer": "historical",
+			"source_locator": "孔融传首段：孔融字文举，鲁国人",
+			"source_refs": [
+				"ws_hhs_070_2589948"
+			],
+			"value": "文举"
+		},
+		{
+			"character_id": "kong_rong",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "kong_rong_alias_kongbeihai_historical",
+			"layer": "historical",
+			"source_locator": "孔融传都昌受围段：刘备曰“孔北海乃复知天下有刘备邪”",
+			"source_refs": [
+				"ws_hhs_070_2589948"
+			],
+			"value": "孔北海"
+		},
+		{
+			"character_id": "ma_yuanyi",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "ma_yuanyi_identity_historical",
+			"layer": "historical",
+			"source_locator": "皇甫嵩传黄巾起事段：中平元年，大方马元义等先收荆、扬数万人，期会发于邺；于是车裂元义于洛阳",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "马元义"
+		},
+		{
+			"character_id": "zhang_mancheng",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_mancheng_identity_historical",
+			"layer": "historical",
+			"source_locator": "朱儁传南阳黄巾段：时南阳黄巾张曼成起兵，称“神上使”，众数万，杀郡守褚贡，屯宛下百余日",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "张曼成"
+		},
+		{
+			"character_id": "zhang_mancheng",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_mancheng_alias_shenshangshi_historical",
+			"layer": "historical",
+			"source_locator": "朱儁传南阳黄巾段：时南阳黄巾张曼成起兵，称“神上使”，众数万，杀郡守褚贡，屯宛下百余日",
+			"source_refs": [
+				"ws_hhs_071_2582288"
+			],
+			"value": "神上使"
+		},
+		{
+			"character_id": "guan_hai",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "guan_hai_identity_historical",
+			"layer": "historical",
+			"source_locator": "孔融传都昌被围段：时黄巾复来侵暴，融乃出屯都昌，为贼管亥所围",
+			"source_refs": [
+				"ws_hhs_070_2589948"
+			],
+			"value": "管亥"
+		},
+		{
+			"character_id": "zhang_yan",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_yan_identity_historical",
+			"layer": "historical",
+			"source_locator": "张燕传首段：张燕，常山真定人也，本姓褚；牛角死，众奉燕，故改姓张",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "张燕"
+		},
+		{
+			"character_id": "zhang_yan",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_yan_alias_feiyan_historical",
+			"layer": "historical",
+			"source_locator": "张燕传首段：燕剽捍捷速过人，故军中号曰飞燕",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "飞燕"
+		},
+		{
+			"character_id": "liu_yu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "liu_yu_identity_historical",
+			"layer": "historical",
+			"source_locator": "刘虞传首段：刘虞字伯安，东海郯人也",
+			"source_refs": [
+				"ws_hhs_073_2115635"
+			],
+			"value": "刘虞"
+		},
+		{
+			"character_id": "liu_yu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_yu_alias_boan_historical",
+			"layer": "historical",
+			"source_locator": "刘虞传首段：刘虞字伯安，东海郯人也",
+			"source_refs": [
+				"ws_hhs_073_2115635"
+			],
+			"value": "伯安"
+		},
+		{
+			"character_id": "liu_yao",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "liu_yao_identity_historical",
+			"layer": "historical",
+			"source_locator": "刘繇传首段：刘繇，字正礼，东莱牟平人也",
+			"source_refs": [
+				"ws_sgz_049_2075209"
+			],
+			"value": "刘繇"
+		},
+		{
+			"character_id": "liu_yao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_yao_alias_zhengli_historical",
+			"layer": "historical",
+			"source_locator": "刘繇传首段：刘繇，字正礼，东莱牟平人也",
+			"source_refs": [
+				"ws_sgz_049_2075209"
+			],
+			"value": "正礼"
+		},
+		{
+			"character_id": "shi_xie",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "shi_xie_identity_historical",
+			"layer": "historical",
+			"source_locator": "士燮传首段：士燮字威彦，苍梧广信人也",
+			"source_refs": [
+				"ws_sgz_049_2075209"
+			],
+			"value": "士燮"
+		},
+		{
+			"character_id": "shi_xie",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "shi_xie_alias_weiyan_historical",
+			"layer": "historical",
+			"source_locator": "士燮传首段：士燮字威彦，苍梧广信人也",
+			"source_refs": [
+				"ws_sgz_049_2075209"
+			],
+			"value": "威彦"
+		},
+		{
+			"character_id": "zhang_xiu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_xiu_identity_historical",
+			"layer": "historical",
+			"source_locator": "张绣传首段：张绣，武威祖厉人，骠骑将军济族子也",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "张绣"
+		},
+		{
+			"character_id": "bao_xin",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "bao_xin_identity_historical",
+			"layer": "historical",
+			"source_locator": "武帝纪初平元年关东起兵段：济北相鲍信同时俱起兵",
+			"source_refs": [
+				"ws_sgz_001_2585429"
+			],
+			"value": "鲍信"
+		},
+		{
+			"character_id": "liu_dai",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "liu_dai_identity_historical",
+			"layer": "historical",
+			"source_locator": "董卓传擢用群士段：侍中刘岱为兖州刺史",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "刘岱"
+		},
+		{
+			"character_id": "liu_dai",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_dai_alias_gongshan_historical",
+			"layer": "historical",
+			"source_locator": "董卓传擢用群士段，李贤注引《吴志》：刘岱字公山，东莱牟平人",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "公山"
+		},
+		{
+			"character_id": "gongsun_du",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "gongsun_du_identity_historical",
+			"layer": "historical",
+			"source_locator": "公孙度传首段：公孙度字升济，本辽东襄平人也",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "公孙度"
+		},
+		{
+			"character_id": "gongsun_du",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "gongsun_du_alias_shengji_historical",
+			"layer": "historical",
+			"source_locator": "公孙度传首段：公孙度字升济，本辽东襄平人也",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "升济"
+		},
+		{
+			"character_id": "gongsun_du",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "gongsun_du_alias_bao_historical",
+			"layer": "historical",
+			"source_locator": "公孙度传首段：度少时名豹，又与琙子同年",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "豹"
+		},
+		{
+			"character_id": "zhang_yang",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_yang_identity_historical",
+			"layer": "historical",
+			"source_locator": "张杨传首段：张杨字稚叔，云中人也",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "张杨"
+		},
+		{
+			"character_id": "zhang_yang",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_yang_alias_zhishu_historical",
+			"layer": "historical",
+			"source_locator": "张杨传首段：张杨字稚叔，云中人也",
+			"source_refs": [
+				"ws_sgz_008_2086403"
+			],
+			"value": "稚叔"
+		},
+		{
+			"character_id": "liu_hong",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "liu_hong_identity_historical",
+			"layer": "historical",
+			"source_locator": "孝灵帝纪题名与首段：孝灵皇帝讳宏",
+			"source_refs": [
+				"ws_hhs_008_2457393"
+			],
+			"value": "汉灵帝"
+		},
+		{
+			"character_id": "liu_hong",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_hong_alias_hong_historical",
+			"layer": "historical",
+			"source_locator": "孝灵帝纪题名与首段正文：孝灵皇帝讳宏",
+			"source_refs": [
+				"ws_hhs_008_2457393"
+			],
+			"value": "宏"
+		},
+		{
+			"character_id": "liu_hong",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_hong_alias_da_historical",
+			"layer": "historical",
+			"source_locator": "孝灵帝纪首段，李贤注引《伏侯古今注》：宏之字曰大",
+			"source_refs": [
+				"ws_hhs_008_2457393"
+			],
+			"value": "大"
+		},
+		{
+			"character_id": "liu_hong",
+			"confidence": "text_explicit",
+			"field": "affiliation",
+			"id": "liu_hong_affiliation_han_court_168_historical",
+			"layer": "historical",
+			"source_locator": "孝灵帝纪建宁元年即位段：建宁元年，庚子，即皇帝位，年十二，改元建宁",
+			"source_refs": [
+				"ws_hhs_008_2457393"
+			],
+			"value": "aff_liu_hong_han_emperor_168"
+		},
+		{
+			"character_id": "liu_xie",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "liu_xie_identity_historical",
+			"layer": "historical",
+			"source_locator": "孝献帝纪题名与首段：孝献皇帝讳协，灵帝中子也",
+			"source_refs": [
+				"ws_hhs_009_2676946"
+			],
+			"value": "汉献帝"
+		},
+		{
+			"character_id": "liu_xie",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_xie_alias_xie_historical",
+			"layer": "historical",
+			"source_locator": "孝献帝纪题名与首段正文：孝献皇帝讳协",
+			"source_refs": [
+				"ws_hhs_009_2676946"
+			],
+			"value": "协"
+		},
+		{
+			"character_id": "liu_xie",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_xie_alias_he_historical",
+			"layer": "historical",
+			"source_locator": "孝献帝纪首段，李贤注：协之字曰合",
+			"source_refs": [
+				"ws_hhs_009_2676946"
+			],
+			"value": "合"
+		},
+		{
+			"character_id": "liu_xie",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_xie_alias_bohe_historical",
+			"layer": "historical",
+			"source_locator": "孝献帝纪首段，李贤注引《帝王纪》：协字伯和",
+			"source_refs": [
+				"ws_hhs_009_2676946"
+			],
+			"value": "伯和"
+		},
+		{
+			"character_id": "ding_yuan",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "ding_yuan_identity_historical",
+			"layer": "historical",
+			"source_locator": "董卓传入洛段：卓使吕布杀执金吾丁原而并其众",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "丁原"
+		},
+		{
+			"character_id": "ding_yuan",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "ding_yuan_alias_jianyang_historical",
+			"layer": "historical",
+			"source_locator": "董卓传入洛段，李贤注引《英雄记》：原字建阳",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "建阳"
+		},
+		{
+			"character_id": "li_jue",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "li_jue_identity_historical",
+			"layer": "historical",
+			"source_locator": "李傕、郭汜段首：牛辅分遣其校尉李傕、郭汜、张济",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "李傕"
+		},
+		{
+			"character_id": "li_jue",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "li_jue_alias_zhiran_historical",
+			"layer": "historical",
+			"source_locator": "李傕、郭汜段首，李贤注引刘艾《献帝纪》：傕字稚然",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "稚然"
+		},
+		{
+			"character_id": "guo_si",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "guo_si_identity_historical",
+			"layer": "historical",
+			"source_locator": "李傕、郭汜段首：牛辅分遣其校尉李傕、郭汜、张济",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "郭汜"
+		},
+		{
+			"character_id": "guo_si",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "guo_si_alias_guoduo_historical",
+			"layer": "historical",
+			"source_locator": "皇甫郦和傕、汜段：汜一名多；同段李傕称郭多",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "郭多"
+		},
+		{
+			"character_id": "xu_rong",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "xu_rong_identity_historical",
+			"layer": "historical",
+			"source_locator": "董卓传孙坚讨卓段：卓先遣将徐荣、李蒙四出虏掠，荣遇坚于梁",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "徐荣"
+		},
+		{
+			"character_id": "han_fu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "han_fu_identity_historical",
+			"layer": "historical",
+			"source_locator": "董卓传擢用群士段：以尚书韩馥为冀州刺史",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "韩馥"
+		},
+		{
+			"character_id": "han_fu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "han_fu_alias_wenjie_historical",
+			"layer": "historical",
+			"source_locator": "董卓传擢用群士段，李贤注引《英雄记》：馥字文节，颍川人",
+			"source_refs": [
+				"ws_hhs_072_2676948"
+			],
+			"value": "文节"
+		},
+		{
+			"character_id": "zhang_miao",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_miao_identity_historical",
+			"layer": "historical",
+			"source_locator": "张邈传首段：张邈字孟卓，东平寿张人也",
+			"source_refs": [
+				"ws_sgz_007_2452141"
+			],
+			"value": "张邈"
+		},
+		{
+			"character_id": "zhang_miao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_miao_alias_mengzhuo_historical",
+			"layer": "historical",
+			"source_locator": "张邈传首段：张邈字孟卓，东平寿张人也",
+			"source_refs": [
+				"ws_sgz_007_2452141"
+			],
+			"value": "孟卓"
+		},
+		{
+			"character_id": "cao_ren",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "cao_ren_identity_historical",
+			"layer": "historical",
+			"source_locator": "曹仁传首句：曹仁字子孝，太祖从弟也",
+			"source_refs": [
+				"ws_sgz_009_2274283"
+			],
+			"value": "曹仁"
+		},
+		{
+			"character_id": "cao_ren",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "cao_ren_alias_zixiao_historical",
+			"layer": "historical",
+			"source_locator": "曹仁传首句：曹仁字子孝，太祖从弟也",
+			"source_refs": [
+				"ws_sgz_009_2274283"
+			],
+			"value": "子孝"
+		},
+		{
+			"character_id": "xu_chu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "xu_chu_identity_historical",
+			"layer": "historical",
+			"source_locator": "许褚传首句：许褚字仲康，谯国谯人也",
+			"source_refs": [
+				"ws_sgz_018_2579680"
+			],
+			"value": "许褚"
+		},
+		{
+			"character_id": "xu_chu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "xu_chu_alias_zhongkang_historical",
+			"layer": "historical",
+			"source_locator": "许褚传首句：许褚字仲康，谯国谯人也",
+			"source_refs": [
+				"ws_sgz_018_2579680"
+			],
+			"value": "仲康"
+		},
+		{
+			"character_id": "guo_jia",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "guo_jia_identity_historical",
+			"layer": "historical",
+			"source_locator": "郭嘉传首句：郭嘉字奉孝，颍川阳翟人也",
+			"source_refs": [
+				"ws_sgz_014_2374427"
+			],
+			"value": "郭嘉"
+		},
+		{
+			"character_id": "guo_jia",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "guo_jia_alias_fengxiao_historical",
+			"layer": "historical",
+			"source_locator": "郭嘉传首句：郭嘉字奉孝，颍川阳翟人也",
+			"source_refs": [
+				"ws_sgz_014_2374427"
+			],
+			"value": "奉孝"
+		},
+		{
+			"character_id": "yan_liang",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "yan_liang_identity_historical",
+			"layer": "historical",
+			"source_locator": "袁绍传备战官渡段：颜良、文丑为将率",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "颜良"
+		},
+		{
+			"character_id": "wen_chou",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "wen_chou_identity_historical",
+			"layer": "historical",
+			"source_locator": "袁绍传备战官渡段：颜良、文丑为将率",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "文丑"
+		},
+		{
+			"character_id": "tian_feng",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "tian_feng_identity_historical",
+			"layer": "historical",
+			"source_locator": "袁绍传人物列举：田丰与荀谌、许攸并列为谋主",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "田丰"
+		},
+		{
+			"character_id": "tian_feng",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "tian_feng_alias_yuanhao_historical",
+			"layer": "historical",
+			"source_locator": "袁绍传裴松之注引《先贤行状》：丰字元皓",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "元皓"
+		},
+		{
+			"character_id": "ju_shou",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "ju_shou_identity_historical",
+			"layer": "historical",
+			"source_locator": "袁绍传沮授、田丰段：从事沮授说绍",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"value": "沮授"
+		},
+		{
+			"character_id": "zhang_he",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhang_he_identity_historical",
+			"layer": "historical",
+			"source_locator": "张郃传首句：张郃字隽乂，河间鄚人也",
+			"source_refs": [
+				"ws_sgz_017_2390639"
+			],
+			"value": "张郃"
+		},
+		{
+			"character_id": "zhang_he",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhang_he_alias_junyi_historical",
+			"layer": "historical",
+			"source_locator": "张郃传首句：张郃字隽乂，河间鄚人也",
+			"source_refs": [
+				"ws_sgz_017_2390639"
+			],
+			"value": "隽乂"
+		},
+		{
+			"character_id": "yu_jin",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "yu_jin_identity_historical",
+			"layer": "historical",
+			"source_locator": "于禁传首句：于禁字文则，泰山钜平人也",
+			"source_refs": [
+				"ws_sgz_017_2390639"
+			],
+			"value": "于禁"
+		},
+		{
+			"character_id": "yu_jin",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "yu_jin_alias_wenze_historical",
+			"layer": "historical",
+			"source_locator": "于禁传首句：于禁字文则，泰山钜平人也",
+			"source_refs": [
+				"ws_sgz_017_2390639"
+			],
+			"value": "文则"
+		},
+		{
+			"character_id": "ma_chao",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "ma_chao_identity_historical",
+			"layer": "historical",
+			"source_locator": "马超传首句：马超字孟起，右扶风茂陵人也",
+			"source_refs": [
+				"ws_sgz_036_2583383"
+			],
+			"value": "马超"
+		},
+		{
+			"character_id": "ma_chao",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "ma_chao_alias_mengqi_historical",
+			"layer": "historical",
+			"source_locator": "马超传首句：马超字孟起，右扶风茂陵人也",
+			"source_refs": [
+				"ws_sgz_036_2583383"
+			],
+			"value": "孟起"
+		},
+		{
+			"character_id": "sun_quan",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "sun_quan_identity_historical",
+			"layer": "historical",
+			"source_locator": "孙权传首句：孙权，字仲谋",
+			"source_refs": [
+				"ws_sgz_047_2602668"
+			],
+			"value": "孙权"
+		},
+		{
+			"character_id": "sun_quan",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "sun_quan_alias_zhongmou_historical",
+			"layer": "historical",
+			"source_locator": "孙权传首句：孙权，字仲谋",
+			"source_refs": [
+				"ws_sgz_047_2602668"
+			],
+			"value": "仲谋"
+		},
+		{
+			"character_id": "zhuge_liang",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "zhuge_liang_identity_historical",
+			"layer": "historical",
+			"source_locator": "诸葛亮传首句：诸葛亮字孔明，琅邪阳都人也",
+			"source_refs": [
+				"ws_sgz_035_2115776"
+			],
+			"value": "诸葛亮"
+		},
+		{
+			"character_id": "zhuge_liang",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "zhuge_liang_alias_kongming_historical",
+			"layer": "historical",
+			"source_locator": "诸葛亮传首句：诸葛亮字孔明，琅邪阳都人也",
+			"source_refs": [
+				"ws_sgz_035_2115776"
+			],
+			"value": "孔明"
+		},
+		{
+			"character_id": "lu_su",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "lu_su_identity_historical",
+			"layer": "historical",
+			"source_locator": "鲁肃传首句：鲁肃字子敬，临淮东城人也",
+			"source_refs": [
+				"ws_sgz_054_2387393"
+			],
+			"value": "鲁肃"
+		},
+		{
+			"character_id": "lu_su",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "lu_su_alias_zijing_historical",
+			"layer": "historical",
+			"source_locator": "鲁肃传首句：鲁肃字子敬，临淮东城人也",
+			"source_refs": [
+				"ws_sgz_054_2387393"
+			],
+			"value": "子敬"
+		},
+		{
+			"character_id": "lv_meng",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "lv_meng_identity_historical",
+			"layer": "historical",
+			"source_locator": "吕蒙传首句：吕蒙字子明，汝南富陂人也",
+			"source_refs": [
+				"ws_sgz_054_2387393"
+			],
+			"value": "吕蒙"
+		},
+		{
+			"character_id": "lv_meng",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "lv_meng_alias_ziming_historical",
+			"layer": "historical",
+			"source_locator": "吕蒙传首句：吕蒙字子明，汝南富陂人也",
+			"source_refs": [
+				"ws_sgz_054_2387393"
+			],
+			"value": "子明"
+		},
+		{
+			"character_id": "gan_ning",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "gan_ning_identity_historical",
+			"layer": "historical",
+			"source_locator": "甘宁传首句：甘宁字兴霸，巴郡临江人也",
+			"source_refs": [
+				"ws_sgz_055_2603286"
+			],
+			"value": "甘宁"
+		},
+		{
+			"character_id": "gan_ning",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "gan_ning_alias_xingba_historical",
+			"layer": "historical",
+			"source_locator": "甘宁传首句：甘宁字兴霸，巴郡临江人也",
+			"source_refs": [
+				"ws_sgz_055_2603286"
+			],
+			"value": "兴霸"
+		},
+		{
+			"character_id": "cheng_pu",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "cheng_pu_identity_historical",
+			"layer": "historical",
+			"source_locator": "程普传首句：程普字德谋，右北平土垠人也",
+			"source_refs": [
+				"ws_sgz_055_2603286"
+			],
+			"value": "程普"
+		},
+		{
+			"character_id": "cheng_pu",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "cheng_pu_alias_demou_historical",
+			"layer": "historical",
+			"source_locator": "程普传首句：程普字德谋，右北平土垠人也",
+			"source_refs": [
+				"ws_sgz_055_2603286"
+			],
+			"value": "德谋"
+		},
+		{
+			"character_id": "pang_tong",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "pang_tong_identity_historical",
+			"layer": "historical",
+			"source_locator": "庞统传首句：庞统字士元，襄阳人也",
+			"source_refs": [
+				"ws_sgz_037_2583384"
+			],
+			"value": "庞统"
+		},
+		{
+			"character_id": "pang_tong",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "pang_tong_alias_shiyuan_historical",
+			"layer": "historical",
+			"source_locator": "庞统传首句：庞统字士元，襄阳人也",
+			"source_refs": [
+				"ws_sgz_037_2583384"
+			],
+			"value": "士元"
+		},
+		{
+			"character_id": "huang_zhong",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "huang_zhong_identity_historical",
+			"layer": "historical",
+			"source_locator": "黄忠传首句：黄忠字汉升，南阳人也",
+			"source_refs": [
+				"ws_sgz_036_2583383"
+			],
+			"value": "黄忠"
+		},
+		{
+			"character_id": "huang_zhong",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "huang_zhong_alias_hansheng_historical",
+			"layer": "historical",
+			"source_locator": "黄忠传首句：黄忠字汉升，南阳人也",
+			"source_refs": [
+				"ws_sgz_036_2583383"
+			],
+			"value": "汉升"
+		},
+		{
+			"character_id": "wei_yan",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "wei_yan_identity_historical",
+			"layer": "historical",
+			"source_locator": "魏延传首句：魏延字文长，义阳人也",
+			"source_refs": [
+				"ws_sgz_040_2583390"
+			],
+			"value": "魏延"
+		},
+		{
+			"character_id": "wei_yan",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "wei_yan_alias_wenchang_historical",
+			"layer": "historical",
+			"source_locator": "魏延传首句：魏延字文长，义阳人也",
+			"source_refs": [
+				"ws_sgz_040_2583390"
+			],
+			"value": "文长"
+		},
+		{
+			"character_id": "liu_zhang",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"id": "liu_zhang_identity_historical",
+			"layer": "historical",
+			"source_locator": "刘璋人物标题与本传首句：璋字季玉，既袭焉位",
+			"source_refs": [
+				"ws_sgz_031_2471750"
+			],
+			"value": "刘璋"
+		},
+		{
+			"character_id": "liu_zhang",
+			"confidence": "text_explicit",
+			"field": "alias",
+			"id": "liu_zhang_alias_jiyu_historical",
+			"layer": "historical",
+			"source_locator": "刘璋人物标题与本传首句：璋字季玉，既袭焉位",
+			"source_refs": [
+				"ws_sgz_031_2471750"
+			],
+			"value": "季玉"
+		},
+		{
+			"character_id": "lu_zhi",
+			"confidence": "text_explicit",
+			"field": "affiliation",
+			"id": "lu_zhi_affiliation_han_court_184_historical",
+			"layer": "historical",
+			"source_locator": "卢植传中平元年黄巾起事段：四府举植，拜北中郎将，持节，以护乌桓中郎将宗员副，将北军五校士征之",
+			"source_refs": [
+				"ws_hhs_064_7904632"
+			],
+			"value": "aff_lu_zhi_han_beizhonglangjiang_184"
+		},
+		{
+			"character_id": "zhu_jun",
+			"confidence": "text_explicit",
+			"field": "affiliation",
+			"id": "zhu_jun_affiliation_han_court_184_historical",
+			"layer": "historical",
+			"source_locator": "朱儁传中平元年黄巾起事段：及黄巾起，公卿多荐儁有才略，拜为右中郎将，持节；孙坚传中平元年段：汉朝遣车骑将军皇甫崧、中郎将朱儁将兵讨击之",
+			"source_refs": [
+				"ws_sgz_046_2629010"
+			],
+			"value": "aff_zhu_jun_han_zhonglangjiang_184"
+		},
+		{
+			"id": "xun_you_identity_historical",
+			"character_id": "xun_you",
+			"field": "identity",
+			"value": "荀攸",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_010_2274279"
+			],
+			"source_locator": "荀攸传首段（陈寿正文）：荀攸字公达",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "xun_you_alias_gongda_historical",
+			"character_id": "xun_you",
+			"field": "alias",
+			"value": "公达",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_010_2274279"
+			],
+			"source_locator": "荀攸传首段（陈寿正文）：荀攸字公达",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "xu_huang_identity_historical",
+			"character_id": "xu_huang",
+			"field": "identity",
+			"value": "徐晃",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_017_2390639"
+			],
+			"source_locator": "徐晃传首段（陈寿正文）：徐晃字公明",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "xu_huang_alias_gongming_historical",
+			"character_id": "xu_huang",
+			"field": "alias",
+			"value": "公明",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_017_2390639"
+			],
+			"source_locator": "徐晃传首段（陈寿正文）：徐晃字公明",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "yue_jin_identity_historical",
+			"character_id": "yue_jin",
+			"field": "identity",
+			"value": "乐进",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_017_2390639"
+			],
+			"source_locator": "乐进传首段（陈寿正文）：乐进字文谦",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "yue_jin_alias_wenqian_historical",
+			"character_id": "yue_jin",
+			"field": "alias",
+			"value": "文谦",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_017_2390639"
+			],
+			"source_locator": "乐进传首段（陈寿正文）：乐进字文谦",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "cao_hong_identity_historical",
+			"character_id": "cao_hong",
+			"field": "identity",
+			"value": "曹洪",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_009_2274283"
+			],
+			"source_locator": "曹洪传首段（陈寿正文）：曹洪字子廉",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "cao_hong_alias_zilian_historical",
+			"character_id": "cao_hong",
+			"field": "alias",
+			"value": "子廉",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_009_2274283"
+			],
+			"source_locator": "曹洪传首段（陈寿正文）：曹洪字子廉",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "shen_pei_identity_historical",
+			"character_id": "shen_pei",
+			"field": "identity",
+			"value": "审配",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"source_locator": "袁绍传南征筹备（陈寿正文）：以审配、逢纪统军事",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "shen_pei_alias_zhengnan_historical",
+			"character_id": "shen_pei",
+			"field": "alias",
+			"value": "正南",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"source_locator": "袁绍传审配被斩后裴注引《先贤行状》：配字正南",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "xu_you_identity_historical",
+			"character_id": "xu_you",
+			"field": "identity",
+			"value": "许攸",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_006_2132349"
+			],
+			"source_locator": "袁绍传南征筹备（陈寿正文）：田丰、荀谌、许攸为谋主",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "xu_you_alias_ziyuan_historical",
+			"character_id": "xu_you",
+			"field": "alias",
+			"value": "子远",
+			"layer": "historical",
+			"source_refs": [
+				"ws_hhs_070_2589948"
+			],
+			"source_locator": "荀彧传建安五年孔融论袁绍幕僚段李贤注：许攸字子远",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "gao_lan_identity_historical",
+			"character_id": "gao_lan",
+			"field": "identity",
+			"value": "高览",
+			"layer": "historical",
+			"source_refs": [
+				"ws_sgz_001_2585429"
+			],
+			"source_locator": "武帝纪建安五年（陈寿正文）：袁绍使张郃、高览攻曹洪",
+			"confidence": "text_explicit"
+		},
+		{
+			"id": "zou_jing_identity_historical",
+			"character_id": "zou_jing",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"layer": "historical",
+			"source_locator": "先主率其屬從校尉鄒靖討黃巾賊有功",
+			"source_refs": [
+				"ws_sgz_032_2583378"
+			],
+			"value": "邹靖"
+		},
+		{
+			"id": "zhang_shiping_identity_historical",
+			"character_id": "zhang_shiping",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"layer": "historical",
+			"source_locator": "中山大商張世平、蘇雙等貲累千金",
+			"source_refs": [
+				"ws_sgz_032_2583378"
+			],
+			"value": "张世平"
+		},
+		{
+			"id": "su_shuang_identity_historical",
+			"character_id": "su_shuang",
+			"confidence": "text_explicit",
+			"field": "identity",
+			"layer": "historical",
+			"source_locator": "中山大商張世平、蘇雙等貲累千金",
+			"source_refs": [
+				"ws_sgz_032_2583378"
+			],
+			"value": "苏双"
+		}
+	],
+	"schema_version": 2
+}

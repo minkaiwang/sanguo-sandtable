@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "groups": [
+    {
+      "id": "huangjin_movement_historical",
+      "name": "黄巾",
+      "kind": "movement",
+      "source_refs": ["ws_hhs_071_2582288"],
+      "source_locator": "皇甫嵩传黄巾起事段：中平元年，起事者皆著黄巾为标帜，时人谓之“黄巾”",
+      "confidence": "text_explicit",
+      "notes": "实体名采用正史原文称谓，指中平元年以黄巾为标识的一时起事群体；不等同于项目原型分类“黄巾军”，也不自动涵盖张角此前十余年的全部门徒网络。"
+    },
+    {
+      "id": "han_court_historical",
+      "name": "汉朝",
+      "kind": "court",
+      "source_refs": ["ws_sgz_046_2629010"],
+      "source_locator": "孙坚传中平元年段：汉朝遣皇甫嵩、朱儁将兵讨击黄巾",
+      "confidence": "text_explicit",
+      "notes": "采用陈寿正文称谓“汉朝”，只表示有固定来源的朝廷任职语境；不等同于背包原型分类“汉廷”，也不是剧本玩法势力。"
+    }
+  ],
+  "notes": "历史／演义归属实体注册表。当前已完成 2 个逐条核验实体试点；仍禁止从人物原型分类或剧本玩法势力批量推断真实归属。"
+}

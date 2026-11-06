@@ -1,0 +1,20 @@
+{
+  "id": "three_kingdoms_equirectangular_v2",
+  "projection": "equirectangular_approximation",
+  "geographic_bounds": {
+    "min_lon": 93.5,
+    "max_lon": 130.5,
+    "min_lat": 18.0,
+    "max_lat": 44.5
+  },
+  "normalized_content_bounds": {
+    "min_x": 0.0,
+    "max_x": 1.0,
+    "min_y": 0.0,
+    "max_y": 1.0
+  },
+  "coordinate_status": "prototype_georeferenced",
+  "primary_reference": "project_defined_equirectangular_grid",
+  "coordinate_source_registry": "res://data/map_sources.json",
+  "notes": "geometry v4 扩展汉末周边视野，覆盖河西以西、漠南、辽东以东、岭南与近海；投影公式与经纬范围由项目定义，各地点经纬度的来源、许可和置信边界以 map_places.json 的 source_ref 及 map_sources.json 为准。"
+}

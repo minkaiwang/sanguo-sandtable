@@ -1,0 +1,39 @@
+{
+  "asset": "map_relief_lr_v1.png",
+  "variant_id": "relief_lr_v1",
+  "runtime_status": "retained_test_control",
+  "generated_size": [
+    1500,
+    1075
+  ],
+  "generated_sha256": "f07fd7b7bede6adc4b008ffc9766f66317f81be08ca4ca282b4868d555563d66",
+  "projection_id": "three_kingdoms_equirectangular_v2",
+  "bounds_wgs84": {
+    "west": 93.5,
+    "south": 18.0,
+    "east": 130.5,
+    "north": 44.5
+  },
+  "source": {
+    "name": "Natural Earth 1:10m Gray Earth with Shaded Relief and Hypsography",
+    "archive": "GRAY_LR_SR.zip",
+    "url": "https://naciscdn.org/naturalearth/10m/raster/GRAY_LR_SR.zip",
+    "license": "Public Domain",
+    "archive_version": "2.0.0 (GRAY_LR_SR.VERSION.txt)",
+    "catalog_page_version": "3.2.0"
+  },
+  "processing": {
+    "ocean": "transparent via current map_land.json land mask",
+    "palette": "classical yellow-green / ink-grey",
+    "alpha_range": [
+      22,
+      48
+    ],
+    "note": "Retained only as the M2-D29 visual regression control."
+  },
+  "promotion": {
+    "replaced_as_formal_default_at_stage": "M2-D29",
+    "replacement_variant": "relief_hr_v1",
+    "runtime_scope": "test_capture_benchmark_only"
+  }
+}

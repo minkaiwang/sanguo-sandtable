@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <!-- Original project artwork: pale paper, distant hills and a river. MIT. -->
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f4ecd5"/><stop offset="1" stop-color="#dfd7b7"/></linearGradient>
+    <linearGradient id="haze" x2="0" y2="1"><stop stop-color="#a8b39a" stop-opacity=".10"/><stop offset="1" stop-color="#a8b39a" stop-opacity=".52"/></linearGradient>
+  </defs>
+  <path fill="url(#paper)" d="M0 0h1600v900H0z"/>
+  <circle cx="1260" cy="245" r="100" fill="#f9f1d8" opacity=".85"/>
+  <path fill="url(#haze)" d="M480 610 630 540 710 565 850 440 930 477 1050 365 1140 408 1225 360 1350 440 1470 420 1600 490V900H480Z"/>
+  <path fill="#87997e" opacity=".27" d="M600 725 740 644 850 682 984 550 1080 577 1215 502 1310 572 1434 525 1600 614V900H600Z"/>
+  <path fill="#698570" opacity=".30" d="M685 900 840 807 940 830 1050 728 1180 780 1290 677 1440 705 1600 642V900Z"/>
+  <path fill="none" stroke="#f5eed6" stroke-width="30" opacity=".68" d="M1220 590c-180 60-160 86-62 112s164 64-12 108-205 64-136 90"/>
+  <path fill="none" stroke="#617d6e" stroke-width="2" opacity=".23" d="m858 441 72 36 120-112m140 375 100-63 150 28 160-63"/>
+  <path fill="#eee6cb" opacity=".45" d="M0 585c450-60 650 95 1600-30v70C800 720 400 600 0 665Z"/>
+</svg>

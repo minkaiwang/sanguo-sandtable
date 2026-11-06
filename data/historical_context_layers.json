@@ -1,0 +1,371 @@
+{
+  "schema_version": 3,
+  "map_id": "map_three_kingdoms_alpha",
+  "map_geometry_version": 4,
+  "runtime_policy": "visual_reference_only_no_snap_no_route_no_save_no_events",
+  "layers": [
+    {
+      "id": "context_184",
+      "name": "184年背景",
+      "year": 184,
+      "default_visible": false,
+      "runtime_semantics": "historical_reference",
+      "records": [
+        {
+          "id": "context_184_luoyang_response",
+          "label": "洛阳应变",
+          "title": "洛阳·朝廷应变",
+          "anchor_place_id": "luoyang",
+          "anchor_semantics": "administrative_center_reference",
+          "display_tier": 1,
+          "label_offset": [-116, -86],
+          "layer": "historical",
+          "date": {"year": 184, "month_from": 3, "month_to": 3, "precision": "month"},
+          "summary": "中平元年三月，何进屯都亭、置八关都尉；朝廷遣卢植讨张角，并遣皇甫嵩、朱儁讨颍川黄巾。",
+          "spatial_note": "洛阳点只作为故城与行政中心锚点，不表示都亭、八关或具体军事设施的位置。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_hhs_008_2457393",
+              "source_locator": "孝灵帝纪·中平元年三月条",
+              "claim_scope": "洛阳朝廷应变与遣将"
+            }
+          ],
+          "confidence": "text_explicit"
+        },
+        {
+          "id": "context_184_guangzong_campaign",
+          "label": "广宗战事",
+          "title": "广宗方向战事",
+          "anchor_place_id": "guangzong",
+          "anchor_semantics": "disputed_site_reference",
+          "display_tier": 1,
+          "label_offset": [16, -38],
+          "layer": "historical",
+          "date": {"year": 184, "precision": "year"},
+          "summary": "卢植、董卓、皇甫嵩先后参与广宗方向战事；十月广宗战事时，张角已经病死。",
+          "spatial_note": "现有广宗点是存在地望争议的现代代理点，不表示营垒、战场边界或张角死亡地点。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_hhs_008_2457393",
+              "source_locator": "孝灵帝纪·中平元年夏至冬十月条",
+              "claim_scope": "广宗方向战事与张角先死"
+            },
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_hhs_071_2582288",
+              "source_locator": "皇甫嵩传·广宗战事条",
+              "claim_scope": "围广宗、换将与皇甫嵩进兵"
+            }
+          ],
+          "confidence": "text_explicit"
+        },
+    {
+      "id": "context_184_yingchuan_campaign",
+      "label": "长社战事",
+      "title": "颍川·长社战事",
+      "anchor_place_id": "changshe_battlefield",
+      "anchor_semantics": "battlefield_region_reference",
+          "display_tier": 2,
+          "label_offset": [18, 38],
+          "layer": "historical",
+          "date": {"year": 184, "month_from": 5, "month_to": 5, "precision": "month"},
+      "summary": "皇甫嵩、朱儁在颍川作战，五月在长社一带大破波才等部；曹操随后领兵赶到。",
+      "spatial_note": "长社点采用现代长葛区域代理，只表示战事方向，不重建古城、营垒、火攻范围或战线边界。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_hhs_008_2457393",
+              "source_locator": "孝灵帝纪·中平元年五月条",
+              "claim_scope": "颍川与长社方向战事"
+            },
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_hhs_071_2582288",
+              "source_locator": "皇甫嵩传·长社破波才条",
+              "claim_scope": "长社战事过程"
+            }
+          ],
+          "confidence": "regional_anchor"
+        },
+        {
+          "id": "context_184_wan_campaign",
+          "label": "宛城战事",
+          "title": "南阳·宛城战事",
+          "anchor_place_id": "wan",
+          "anchor_semantics": "modern_place_proxy",
+          "display_tier": 1,
+          "label_offset": [-90, 38],
+          "layer": "historical",
+          "date": {"year": 184, "month_from": 3, "month_to": 11, "precision": "range"},
+          "summary": "南阳黄巾攻杀郡守后据宛；朱儁、孙坚等围攻，至冬季攻克。",
+          "spatial_note": "当前宛点采用现代南阳代理定位，只作南阳战区入口，不表示汉宛城中心或城墙范围。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_hhs_008_2457393",
+              "source_locator": "孝灵帝纪·中平元年三月及冬十一月条",
+              "claim_scope": "南阳起事与攻克宛城"
+            },
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_hhs_071_2582288",
+              "source_locator": "朱儁传·南阳宛城战事条",
+              "claim_scope": "围宛与攻克宛城"
+            },
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgz_046_2629010",
+              "source_locator": "孙破虏讨逆传·从朱儁征宛条",
+              "claim_scope": "孙坚随朱儁参与南阳宛城方向战事"
+            }
+          ],
+          "confidence": "regional_anchor"
+        },
+        {
+          "id": "context_184_xiapi_recruitment",
+          "label": "下邳募兵",
+          "title": "下邳募兵",
+          "anchor_place_id": "xiapi",
+          "anchor_semantics": "historical_site_reference",
+          "display_tier": 2,
+          "label_offset": [18, 36],
+          "layer": "historical",
+          "date": {"year": 184, "precision": "year"},
+          "summary": "孙坚时为下邳丞，朱儁表请其为佐军司马；随孙坚在下邳的乡里少年，以及所募商旅与淮、泗精兵，随军出征。",
+          "spatial_note": "锚点用于关联孙坚在下邳任职与募兵线索；考古遗址中心不等于募兵或集结地点。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgz_046_2629010",
+              "source_locator": "孙破虏讨逆传·中平元年佐军司马条",
+              "claim_scope": "孙坚任下邳丞并随朱儁征讨"
+            }
+          ],
+          "confidence": "text_explicit"
+        },
+        {
+          "id": "context_184_zhuo_romance_opening",
+          "label": "涿县起步",
+          "title": "涿县·演义开篇",
+          "anchor_place_id": "zhuo",
+          "anchor_semantics": "modern_place_proxy",
+          "display_tier": 2,
+          "label_offset": [-112, 34],
+          "layer": "romance",
+          "date": {"year": 184, "precision": "year"},
+          "summary": "招军榜文、刘关张相识与桃园结义在涿县展开，形成蜀汉创业故事的开篇。",
+          "spatial_note": "当前涿县点为现代代理点；桃园结义属于演义叙事，不作为正史事实或精确地点。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgyy_001_2583915",
+              "source_locator": "第一回·榜文行到涿县至桃园结义段",
+              "claim_scope": "演义中的涿县起步叙事"
+            }
+          ],
+          "confidence": "narrative_explicit"
+        }
+      ]
+    },
+    {
+      "id": "context_190",
+      "name": "190年背景",
+      "year": 190,
+      "default_visible": false,
+      "runtime_semantics": "historical_reference",
+      "records": [
+        {
+          "id": "context_190_luoyang_burning",
+          "candidate_ref": "candidate_context_190_luoyang_burning",
+          "label": "洛阳焚宫",
+          "title": "洛阳·焚烧宫室",
+          "anchor_place_id": "luoyang",
+          "anchor_semantics": "historical_site_reference",
+          "display_tier": 1,
+          "label_offset": [36, -110],
+          "layer": "historical",
+          "date": {"year": 190, "month_from": 2, "month_to": 2, "precision": "month"},
+          "summary": "初平元年二月，董卓迁都后留屯洛阳，史书记载焚烧宫室并破坏相关陵墓。",
+          "spatial_note": "洛阳点是汉魏洛阳故城锚点，不表示宫殿、陵墓、火场、迁民范围或破坏边界。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgz_001_2585429",
+              "source_locator": "武帝纪·初平元年二月徙都与焚宫室条",
+              "claim_scope": "董卓留屯洛阳并焚烧宫室"
+            },
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgz_006_2132349",
+              "source_locator": "董卓传·初平元年二月徙都与焚烧洛阳宫室条",
+              "claim_scope": "迁都、焚烧宫室及发掘陵墓"
+            }
+          ],
+          "confidence": "text_explicit"
+        },
+        {
+          "id": "context_190_changan_court_move",
+          "candidate_ref": "candidate_context_190_changan_court_move",
+          "label": "迁都长安",
+          "title": "长安·迁都",
+          "anchor_place_id": "changan",
+          "anchor_semantics": "historical_site_reference",
+          "display_tier": 1,
+          "label_offset": [-114, -105],
+          "layer": "historical",
+          "date": {"year": 190, "month_from": 2, "month_to": 2, "precision": "month"},
+          "summary": "初平元年二月，董卓徙天子都长安，东汉朝廷由洛阳转往长安。",
+          "spatial_note": "长安点是汉长安城遗址锚点，不是未央宫、车驾落脚点或迁徙终点的精确坐标。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgz_001_2585429",
+              "source_locator": "武帝纪·初平元年二月徙天子都长安条",
+              "claim_scope": "迁都长安的年月与朝廷转移"
+            },
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgz_006_2132349",
+              "source_locator": "董卓传·初平元年二月徙天子都长安条",
+              "claim_scope": "迁都长安及其洛阳背景"
+            }
+          ],
+          "confidence": "text_explicit"
+        }
+      ]
+    },
+    {
+      "id": "context_196",
+      "name": "196年背景",
+      "year": 196,
+      "default_visible": false,
+      "runtime_semantics": "historical_reference",
+      "records": [
+        {
+          "id": "context_196_xu_court_move",
+          "candidate_ref": "candidate_context_196_xu_court_move",
+          "label": "许县迁都",
+          "title": "许县·迁都",
+          "anchor_place_id": "xuchang",
+          "anchor_semantics": "historical_site_reference",
+          "display_tier": 1,
+          "label_offset": [34, -84],
+          "layer": "historical",
+          "date": {"year": 196, "month_from": 8, "month_to": 9, "precision": "range"},
+          "summary": "建安元年秋，汉献帝迁都许县；八月至九月间，朝廷自洛阳东行，许县由此成为东汉朝廷所在。",
+          "spatial_note": "许县点为汉魏许都故城遗址锚点，不表示车驾路线、曹操营地、宫城中心或城墙范围。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_hhs_009_2676946",
+              "source_locator": "孝献帝纪·建安元年八月庚申迁都许条",
+              "claim_scope": "迁都许的月份与事件"
+            },
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgz_001_2585429",
+              "source_locator": "武帝纪·建安元年秋至九月都许条",
+              "claim_scope": "都许背景与九月车驾出轘辕东行"
+            }
+          ],
+          "confidence": "text_explicit"
+        }
+      ]
+    },
+    {
+      "id": "context_200",
+      "name": "200年背景",
+      "year": 200,
+      "default_visible": false,
+      "runtime_semantics": "historical_reference",
+      "records": [
+        {
+          "id": "context_200_guandu_standoff",
+          "candidate_ref": "candidate_context_200_guandu_standoff",
+          "label": "官渡相持",
+          "title": "官渡·曹袁对峙",
+          "anchor_place_id": "guandu_battlefield",
+          "anchor_semantics": "regional_battlefield_reference",
+          "display_tier": 1,
+          "label_offset": [26, -86],
+          "layer": "historical",
+          "date": {"year": 200, "precision": "year"},
+          "summary": "建安五年，袁绍与曹操在官渡方向长期相持；曹操袭击乌巢后，袁军在官渡战局中溃败。",
+          "spatial_note": "官渡战场点只作为战役区域阅读锚点，不表示营垒、乌巢、渡口或双方战线的精确位置。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgz_001_2585429",
+              "source_locator": "武帝纪·建安五年官渡拒袁绍至冬十月绍军大溃条",
+              "claim_scope": "官渡相持、袭乌巢与袁军溃败"
+            }
+          ],
+          "confidence": "regional_anchor"
+        }
+      ]
+    },
+    {
+      "id": "context_208",
+      "name": "208年背景",
+      "year": 208,
+      "default_visible": false,
+      "runtime_semantics": "historical_reference",
+      "records": [
+        {
+          "id": "context_208_jingzhou_shift",
+          "candidate_ref": "candidate_context_208_jingzhou_shift",
+          "label": "荆州易势",
+          "title": "襄阳·荆州易势",
+          "anchor_place_id": "xiangyang",
+          "anchor_semantics": "administrative_region_reference",
+          "display_tier": 1,
+          "label_offset": [-126, -92],
+          "layer": "historical",
+          "date": {"year": 208, "precision": "year"},
+          "summary": "建安十三年曹操南征，刘表病卒，其子刘琮降；刘备南撤，荆州局势由此迅速变化。",
+          "spatial_note": "襄阳点只作为荆州北部与州府方向的阅读锚点，不表示受降地点、刘备撤退路线或曹军营地。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgz_001_2585429",
+              "source_locator": "武帝纪·建安十三年秋七月南征刘表至刘琮举州降条",
+              "claim_scope": "曹操南征、刘表卒与刘琮降"
+            },
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgz_032_2583378",
+              "source_locator": "先主传·建安十三年曹公南征与先主南走条",
+              "claim_scope": "刘备在荆州局势变化中的南撤"
+            }
+          ],
+          "confidence": "regional_anchor"
+        },
+        {
+          "id": "context_208_red_cliffs_front",
+          "candidate_ref": "candidate_context_208_red_cliffs_front",
+          "label": "赤壁交战",
+          "title": "江陵方向·赤壁战局",
+          "anchor_place_id": "jiangling",
+          "anchor_semantics": "regional_campaign_reference",
+          "display_tier": 1,
+          "label_offset": [28, 82],
+          "layer": "historical",
+          "date": {"year": 208, "precision": "year"},
+          "summary": "孙权遣周瑜、程普等率水军与刘备并力，在赤壁方向与曹操军交战并取胜。",
+          "spatial_note": "当前地图没有单列赤壁遗址点，借江陵作为荆州战役区域入口；本条不表示赤壁坐标、舰队位置或交战范围。",
+          "evidence": [
+            {
+              "source_registry": "character_sources",
+              "source_ref": "ws_sgz_032_2583378",
+              "source_locator": "先主传·孙权遣周瑜程普与先主并力战于赤壁条",
+              "claim_scope": "孙刘并力与赤壁方向交战结果"
+            }
+          ],
+          "confidence": "regional_anchor"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "asset_id": "project_close_ink_v1",
+  "path": "res://assets/ui/icons/project/close_ink_v1.svg",
+  "kind": "ui_icon",
+  "status": "runtime",
+  "runtime_bytes": 198,
+  "runtime_sha256": "5145E53467BFB4C44B4661D624716F94379717526408CF583BDB8607955AFB14",
+  "usage_status": "approved_for_distribution",
+  "authorship": "project_original",
+  "license": "project_owned",
+  "created_at": "2026-07-29",
+  "design": {
+    "canvas_px": [18, 18],
+    "stroke": "#4D493D",
+    "purpose": "白昼浅绢弹窗的关闭按钮；不含第三方图形或文字。"
+  }
+}

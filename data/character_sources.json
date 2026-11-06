@@ -1,0 +1,616 @@
+{
+	"retrieved_at": "2026-08-28",
+	"schema_version": 1.0,
+	"sources": [
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷三十二·蜀书二·先主传",
+			"id": "ws_sgz_032_2583378",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于刘备姓名、字、主要生平与相关历史背景；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷32&oldid=2583378",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"historical_context_reference"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷32",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷三十六·蜀书六·关张马黄赵传",
+			"id": "ws_sgz_036_2583383",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于关羽、张飞、赵云、马腾姓名、字与主要生平；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷36&oldid=2583383",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷36",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "",
+			"author": "罗贯中",
+			"citation_title": "《三国演义》第一回·宴桃园豪杰三结义 斩黄巾英雄首立功",
+			"id": "ws_sgyy_001_2583915",
+			"kind": "digitized_literary_text",
+			"layer": "romance",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "作品属于公共领域，维基文库页面文字按 CC BY-SA 4.0 提供。当前仅用于区分演义称谓与正史称谓，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國演義/第001回&oldid=2583915",
+			"roles": [
+				"character_alias",
+				"scenario_reference",
+				"historical_context_reference"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國演義/第001回",
+			"usage_status": "reference_only",
+			"work_title": "三国演义"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷一·魏书一·武帝纪",
+			"id": "ws_sgz_001_2585429",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于曹操、韩遂姓名、字与主要生平；‘孟德’见陈寿正文，‘吉利’‘阿瞒’见裴松之注引《曹瞒传》，‘文约’见裴松之注引《典略》。当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷01&oldid=2585429",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"historical_context_reference",
+				"historical_context_candidate_reference"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷01",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷四十六·吴书一·孙破虏讨逆传",
+			"id": "ws_sgz_046_2629010",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "作品页面声明古籍原作属于公有领域；维基文库页面文字按 CC BY-SA 4.0 提供。当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷46&oldid=2629010",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"historical_context_reference",
+				"affiliation_entity",
+				"character_affiliation"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷46",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "李贤",
+			"author": "范晔",
+			"citation_title": "《后汉书》卷七十一·皇甫嵩朱儁列传第六十一",
+			"id": "ws_hhs_071_2582288",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "《后汉书》作品总页声明原作属于公有领域，并说明维基文库用户补入的标点按 CC BY-SA 4.0/GFDL 释出；本站页面文字按 CC BY-SA 4.0 提供。当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=後漢書/卷71&oldid=2582288",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"affiliation_entity",
+				"character_affiliation",
+				"historical_context_reference"
+			],
+			"url": "https://zh.wikisource.org/wiki/後漢書/卷71",
+			"usage_status": "reference_only",
+			"work_title": "后汉书"
+		},
+		{
+			"annotator": "李贤",
+			"author": "范晔",
+			"citation_title": "《后汉书》卷八·孝灵帝纪第八",
+			"id": "ws_hhs_008_2457393",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于孝灵帝帝号、讳、李贤注所载字与建宁元年即皇帝位，并继续支持汉末历史背景；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=後漢書/卷8&oldid=2457393",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"character_affiliation",
+				"historical_context_reference"
+			],
+			"url": "https://zh.wikisource.org/wiki/後漢書/卷8",
+			"usage_status": "reference_only",
+			"work_title": "后汉书"
+		},
+		{
+			"annotator": "李贤",
+			"author": "范晔",
+			"citation_title": "《后汉书》卷九·孝献帝纪第九",
+			"id": "ws_hhs_009_2676946",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于孝献帝帝号、讳与李贤注所载字，并继续支持建安元年许县迁都语境；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=後漢書/卷9&oldid=2676946",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"historical_context_reference",
+				"historical_context_candidate_reference"
+			],
+			"url": "https://zh.wikisource.org/wiki/後漢書/卷9",
+			"usage_status": "reference_only",
+			"work_title": "后汉书"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷六·魏书六·董二袁刘传",
+			"id": "ws_sgz_006_2132349",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "作品页面声明原作属于公有领域；维基文库页面文字按 CC BY-SA 4.0 提供。当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷06&oldid=2132349",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"historical_context_reference",
+				"historical_context_candidate_reference"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷06",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷七·魏书七·吕布臧洪传",
+			"id": "ws_sgz_007_2452141",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "作品页面声明原作属于公有领域；维基文库页面文字按 CC BY-SA 4.0 提供。当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷07&oldid=2452141",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷07",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "李贤",
+			"author": "范晔",
+			"citation_title": "《后汉书》卷六十六·陈王列传第五十六",
+			"id": "ws_hhs_066_2405344",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于王允姓名、字与中平元年豫州刺史任命；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=後漢書/卷66&oldid=2405344",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"character_affiliation"
+			],
+			"url": "https://zh.wikisource.org/wiki/後漢書/卷66",
+			"usage_status": "reference_only",
+			"work_title": "后汉书"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷十七·魏书十七·张乐于张徐传",
+			"id": "ws_sgz_017_2390639",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于张辽姓名与字；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷17&oldid=2390639",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷17",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷十·魏书十·荀彧荀攸贾诩传",
+			"id": "ws_sgz_010_2274279",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于荀彧、贾诩姓名与字；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷10&oldid=2274279",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷10",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷五十四·吴书九·周瑜鲁肃吕蒙传",
+			"id": "ws_sgz_054_2387393",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于周瑜姓名、字与周郎称呼；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷54&oldid=2387393",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷54",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷四十九·吴书四·刘繇太史慈士燮传",
+			"id": "ws_sgz_049_2075209",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于太史慈姓名与字；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷49&oldid=2075209",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷49",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷三十一·蜀书一·刘二牧传",
+			"id": "ws_sgz_031_2471750",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于刘焉姓名与字；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷31&oldid=2471750",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷31",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷八·魏书八·二公孙陶四张传",
+			"id": "ws_sgz_008_2086403",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于公孙瓒、陶谦、张鲁姓名、字与主要生平；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷08&oldid=2086403",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷08",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷三十八·蜀书八·许麋孙简伊秦传",
+			"id": "ws_sgz_038_2583387",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于简雍、孙乾姓名、字与主要生平；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷38&oldid=2583387",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷38",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷九·魏书九·诸夏侯曹传",
+			"id": "ws_sgz_009_2274283",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于夏侯惇、夏侯渊姓名、字与主要生平；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷09&oldid=2274283",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷09",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷五十五·吴书十·程黄韩蒋周陈董甘凌徐潘丁传",
+			"id": "ws_sgz_055_2603286",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于黄盖姓名、字与主要生平；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷55&oldid=2603286",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷55",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "李贤",
+			"author": "范晔",
+			"citation_title": "《后汉书》卷六十九·窦何列传第五十九",
+			"id": "ws_hhs_069_2341718",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于何进姓名、字、中平元年大将军任命与主要生平；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=後漢書/卷69&oldid=2341718",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"character_affiliation"
+			],
+			"url": "https://zh.wikisource.org/wiki/後漢書/卷69",
+			"usage_status": "reference_only",
+			"work_title": "后汉书"
+		},
+		{
+			"annotator": "李贤",
+			"author": "范晔",
+			"citation_title": "《后汉书》卷六十四·吴延史卢赵列传第五十四",
+			"id": "ws_hhs_064_7904632",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于卢植姓名、字、主要生平及中平元年北中郎将任职事实；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=後漢書/卷64&oldid=7904632",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"character_affiliation"
+			],
+			"url": "https://zh.wikisource.org/wiki/後漢書/卷64",
+			"usage_status": "reference_only",
+			"work_title": "后汉书"
+		},
+		{
+			"annotator": "李贤",
+			"author": "范晔",
+			"citation_title": "《后汉书》卷七十三·刘虞公孙瓒陶谦列传第六十三",
+			"id": "ws_hhs_073_2115635",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于公孙瓒姓名、字、白马义从与主要生平；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=後漢書/卷73&oldid=2115635",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"historical_context_reference"
+			],
+			"url": "https://zh.wikisource.org/wiki/後漢書/卷73",
+			"usage_status": "reference_only",
+			"work_title": "后汉书"
+		},
+		{
+			"annotator": "李贤",
+			"author": "范晔",
+			"citation_title": "《后汉书》卷七十二·董卓列传第六十二",
+			"id": "ws_hhs_072_2676948",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于卷内人物姓名、字、别名和身份事实，并继续支持董卓相关历史背景；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=後漢書/卷72&oldid=2676948",
+			"roles": [
+				"character_identity",
+				"character_alias",
+				"historical_context_reference"
+			],
+			"url": "https://zh.wikisource.org/wiki/後漢書/卷72",
+			"usage_status": "reference_only",
+			"work_title": "后汉书"
+		},
+		{
+			"annotator": "李贤",
+			"author": "范晔",
+			"citation_title": "《后汉书》卷七十·郑孔荀列传第六十",
+			"id": "ws_hhs_070_2589948",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于孔融姓名、字、孔北海称呼与主要生平；当前项目只保存引用元数据与短事实，不内置全文。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=後漢書/卷70&oldid=2589948",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/後漢書/卷70",
+			"usage_status": "reference_only",
+			"work_title": "后汉书"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷十四·魏书十四·程郭董刘蒋刘传",
+			"id": "ws_sgz_014_2374427",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于郭嘉姓名、字和人物级短定位。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷14&oldid=2374427",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷14",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷十八·魏书十八·二李臧文吕许典二庞阎传",
+			"id": "ws_sgz_018_2579680",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于许褚姓名、字和人物级短定位。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷18&oldid=2579680",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷18",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷四十七·吴书二·吴主传",
+			"id": "ws_sgz_047_2602668",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于孙权姓名、字和人物级短定位。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷47&oldid=2602668",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷47",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷三十五·蜀书五·诸葛亮传",
+			"id": "ws_sgz_035_2115776",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于诸葛亮姓名、字和人物级短定位。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷35&oldid=2115776",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷35",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷三十七·蜀书七·庞统法正传",
+			"id": "ws_sgz_037_2583384",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于庞统姓名、字和人物级短定位。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷37&oldid=2583384",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷37",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		},
+		{
+			"annotator": "裴松之",
+			"author": "陈寿",
+			"citation_title": "《三国志》卷四十·蜀书十·刘彭廖李刘魏杨传",
+			"id": "ws_sgz_040_2583390",
+			"kind": "digitized_primary_text",
+			"layer": "historical",
+			"license": "public_domain_work; wikisource_page_cc_by_sa_4_0",
+			"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"notes": "固定版本用于魏延姓名、字和人物级短定位。",
+			"permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷40&oldid=2583390",
+			"roles": [
+				"character_identity",
+				"character_alias"
+			],
+			"url": "https://zh.wikisource.org/wiki/三國志/卷40",
+			"usage_status": "reference_only",
+			"work_title": "三国志"
+		}
+	]
+}

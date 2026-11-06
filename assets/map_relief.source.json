@@ -1,0 +1,59 @@
+{
+  "asset": "map_relief.png",
+  "runtime_path": "res://assets/map_relief.png",
+  "variant_id": "relief_hr_v1",
+  "runtime_status": "formal_default",
+  "usage_status": "approved_for_distribution",
+  "generated_bytes": 2691529,
+  "generated_size": [
+    2250,
+    1613
+  ],
+  "generated_sha256": "aeeae496d2e219eb09d6d3b3d2b3c5f553b3b17a162a97eb723f0c80787ad796",
+  "projection_id": "three_kingdoms_equirectangular_v2",
+  "bounds_wgs84": {
+    "west": 93.5,
+    "south": 18.0,
+    "east": 130.5,
+    "north": 44.5
+  },
+  "source": {
+    "name": "Natural Earth 1:10m Gray Earth with Shaded Relief and Hypsography",
+    "archive": "GRAY_HR_SR.zip",
+    "url": "https://naciscdn.org/naturalearth/10m/raster/GRAY_HR_SR.zip",
+    "license": "Public Domain",
+    "archive_version": "2.0.0 (GRAY_HR_SR.VERSION.txt)",
+    "catalog_page_version": "3.2.0",
+    "archive_sha256": "f2554cfc787e552ab823b5dd7fe04d49080d69d420ab0e29f0d7613a366ade01",
+    "raster_sha256": "e610e818b23f780a6e6e06d1858b486b4edfb0a56854f766a6d18c88527b7bfc",
+    "raster_size": [
+      21600,
+      10800
+    ],
+    "raster_mode": "L",
+    "crop_box_pixels": [
+      16410,
+      2730,
+      18630,
+      4320
+    ]
+  },
+  "processing": {
+    "ocean": "transparent via current map_land.json land mask",
+    "palette": "classical yellow-green / ink-grey",
+    "alpha_range": [
+      22,
+      48
+    ],
+    "resampling": "Pillow Image.Resampling.LANCZOS",
+    "note": "Low-contrast underlay for labels, routes, and character cards."
+  },
+  "promotion": {
+    "stage": "M2-D29",
+    "visual_matrix": "artifacts/m2_d29_terrain_ab/manifest.json",
+    "formalized_at": "2026-07-27",
+    "control_variant": "relief_lr_v1",
+    "coordinate_model_changed": false,
+    "save_schema_changed": false
+  }
+}

@@ -1,0 +1,9 @@
+.godot/
+builds/
+artifacts/
+*.log
+*.tmp
+.env
+.env.*
+*.pem
+*.key

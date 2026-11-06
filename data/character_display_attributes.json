@@ -1,0 +1,652 @@
+{
+	"dimensions": [
+		"might",
+		"intelligence",
+		"leadership",
+		"charisma"
+	],
+	"provenance": {
+		"edition": "three_kingdoms_sandbox_v1",
+		"method": "项目综合人物在正史与演义中的整体形象独立编制，服务卡牌初始展示；玩家可在本局覆盖。胜负、AI和自动推演不读取这些数值。",
+		"notice": "数值属于可编辑的游戏资料；史实信息见人物小传与来源。",
+		"semantic_layer": "project_editorial",
+		"verification_status": "not_historical_fact"
+	},
+	"records": [
+		{
+			"character_id": "liu_bei",
+			"charisma": 96,
+			"intelligence": 80,
+			"leadership": 82,
+			"might": 75
+		},
+		{
+			"character_id": "guan_yu",
+			"charisma": 88,
+			"intelligence": 76,
+			"leadership": 93,
+			"might": 97
+		},
+		{
+			"character_id": "zhang_fei",
+			"charisma": 78,
+			"intelligence": 61,
+			"leadership": 86,
+			"might": 98
+		},
+		{
+			"character_id": "jian_yong",
+			"charisma": 82,
+			"intelligence": 76,
+			"leadership": 45,
+			"might": 32
+		},
+		{
+			"character_id": "sun_qian",
+			"charisma": 80,
+			"intelligence": 74,
+			"leadership": 42,
+			"might": 28
+		},
+		{
+			"character_id": "zhao_yun",
+			"charisma": 87,
+			"intelligence": 78,
+			"leadership": 92,
+			"might": 96
+		},
+		{
+			"character_id": "zhang_jiao",
+			"charisma": 95,
+			"intelligence": 88,
+			"leadership": 83,
+			"might": 55
+		},
+		{
+			"character_id": "zhang_bao",
+			"charisma": 75,
+			"intelligence": 62,
+			"leadership": 70,
+			"might": 74
+		},
+		{
+			"character_id": "zhang_liang",
+			"charisma": 69,
+			"intelligence": 55,
+			"leadership": 72,
+			"might": 78
+		},
+		{
+			"character_id": "bo_cai",
+			"charisma": 61,
+			"intelligence": 58,
+			"leadership": 73,
+			"might": 79
+		},
+		{
+			"character_id": "he_jin",
+			"charisma": 72,
+			"intelligence": 52,
+			"leadership": 61,
+			"might": 68
+		},
+		{
+			"character_id": "huangfu_song",
+			"charisma": 84,
+			"intelligence": 88,
+			"leadership": 95,
+			"might": 82
+		},
+		{
+			"character_id": "zhu_jun",
+			"charisma": 78,
+			"intelligence": 84,
+			"leadership": 91,
+			"might": 80
+		},
+		{
+			"character_id": "lu_zhi",
+			"charisma": 87,
+			"intelligence": 92,
+			"leadership": 88,
+			"might": 71
+		},
+		{
+			"character_id": "dong_zhuo",
+			"charisma": 73,
+			"intelligence": 72,
+			"leadership": 88,
+			"might": 91
+		},
+		{
+			"character_id": "lv_bu",
+			"charisma": 72,
+			"intelligence": 48,
+			"leadership": 87,
+			"might": 100
+		},
+		{
+			"character_id": "cao_cao",
+			"charisma": 95,
+			"intelligence": 96,
+			"leadership": 98,
+			"might": 84
+		},
+		{
+			"character_id": "xiahou_dun",
+			"charisma": 81,
+			"intelligence": 67,
+			"leadership": 88,
+			"might": 91
+		},
+		{
+			"character_id": "xiahou_yuan",
+			"charisma": 76,
+			"intelligence": 65,
+			"leadership": 91,
+			"might": 94
+		},
+		{
+			"character_id": "sun_jian",
+			"charisma": 88,
+			"intelligence": 79,
+			"leadership": 94,
+			"might": 95
+		},
+		{
+			"character_id": "sun_ce",
+			"charisma": 92,
+			"intelligence": 82,
+			"leadership": 95,
+			"might": 97
+		},
+		{
+			"character_id": "huang_gai",
+			"charisma": 82,
+			"intelligence": 76,
+			"leadership": 87,
+			"might": 89
+		},
+		{
+			"character_id": "yuan_shao",
+			"charisma": 94,
+			"intelligence": 78,
+			"leadership": 85,
+			"might": 69
+		},
+		{
+			"character_id": "yuan_shu",
+			"charisma": 83,
+			"intelligence": 58,
+			"leadership": 72,
+			"might": 67
+		},
+		{
+			"character_id": "gongsun_zan",
+			"charisma": 76,
+			"intelligence": 68,
+			"leadership": 84,
+			"might": 88
+		},
+		{
+			"character_id": "tao_qian",
+			"charisma": 84,
+			"intelligence": 73,
+			"leadership": 62,
+			"might": 43
+		},
+		{
+			"character_id": "liu_biao",
+			"charisma": 91,
+			"intelligence": 84,
+			"leadership": 79,
+			"might": 46
+		},
+		{
+			"character_id": "ma_teng",
+			"charisma": 84,
+			"intelligence": 65,
+			"leadership": 86,
+			"might": 90
+		},
+		{
+			"character_id": "han_sui",
+			"charisma": 79,
+			"intelligence": 88,
+			"leadership": 90,
+			"might": 80
+		},
+		{
+			"character_id": "kong_rong",
+			"charisma": 92,
+			"intelligence": 91,
+			"leadership": 48,
+			"might": 34
+		},
+		{
+			"character_id": "wang_yun",
+			"charisma": 86,
+			"intelligence": 89,
+			"leadership": 66,
+			"might": 38
+		},
+		{
+			"character_id": "hua_xiong",
+			"charisma": 68,
+			"intelligence": 55,
+			"leadership": 82,
+			"might": 93
+		},
+		{
+			"character_id": "chen_gong",
+			"charisma": 80,
+			"intelligence": 91,
+			"leadership": 79,
+			"might": 54
+		},
+		{
+			"character_id": "zhang_liao",
+			"charisma": 85,
+			"intelligence": 82,
+			"leadership": 95,
+			"might": 94
+		},
+		{
+			"character_id": "xun_yu",
+			"charisma": 92,
+			"intelligence": 95,
+			"leadership": 74,
+			"might": 35
+		},
+		{
+			"character_id": "zhou_yu",
+			"charisma": 94,
+			"intelligence": 94,
+			"leadership": 96,
+			"might": 84
+		},
+		{
+			"character_id": "taishi_ci",
+			"charisma": 86,
+			"intelligence": 75,
+			"leadership": 90,
+			"might": 96
+		},
+		{
+			"character_id": "liu_yan",
+			"charisma": 89,
+			"intelligence": 85,
+			"leadership": 83,
+			"might": 47
+		},
+		{
+			"character_id": "zhang_lu",
+			"charisma": 93,
+			"intelligence": 82,
+			"leadership": 80,
+			"might": 55
+		},
+		{
+			"character_id": "jia_xu",
+			"charisma": 76,
+			"intelligence": 96,
+			"leadership": 77,
+			"might": 42
+		},
+		{
+			"character_id": "ma_yuanyi",
+			"charisma": 78,
+			"intelligence": 78,
+			"leadership": 80,
+			"might": 62
+		},
+		{
+			"character_id": "zhang_mancheng",
+			"charisma": 81,
+			"intelligence": 66,
+			"leadership": 80,
+			"might": 74
+		},
+		{
+			"character_id": "zhang_yan",
+			"charisma": 87,
+			"intelligence": 79,
+			"leadership": 90,
+			"might": 88
+		},
+		{
+			"character_id": "guan_hai",
+			"charisma": 62,
+			"intelligence": 58,
+			"leadership": 74,
+			"might": 79
+		},
+		{
+			"character_id": "liu_hong",
+			"charisma": 66,
+			"intelligence": 56,
+			"leadership": 55,
+			"might": 30
+		},
+		{
+			"character_id": "liu_xie",
+			"charisma": 80,
+			"intelligence": 75,
+			"leadership": 60,
+			"might": 32
+		},
+		{
+			"character_id": "ding_yuan",
+			"charisma": 70,
+			"intelligence": 57,
+			"leadership": 78,
+			"might": 88
+		},
+		{
+			"character_id": "li_jue",
+			"charisma": 60,
+			"intelligence": 62,
+			"leadership": 86,
+			"might": 76
+		},
+		{
+			"character_id": "guo_si",
+			"charisma": 56,
+			"intelligence": 58,
+			"leadership": 80,
+			"might": 86
+		},
+		{
+			"character_id": "xu_rong",
+			"charisma": 60,
+			"intelligence": 73,
+			"leadership": 84,
+			"might": 78
+		},
+		{
+			"character_id": "han_fu",
+			"charisma": 69,
+			"intelligence": 58,
+			"leadership": 67,
+			"might": 43
+		},
+		{
+			"character_id": "zhang_miao",
+			"charisma": 92,
+			"intelligence": 77,
+			"leadership": 82,
+			"might": 58
+		},
+		{
+			"character_id": "bao_xin",
+			"charisma": 85,
+			"intelligence": 82,
+			"leadership": 80,
+			"might": 82
+		},
+		{
+			"character_id": "liu_dai",
+			"charisma": 72,
+			"intelligence": 59,
+			"leadership": 69,
+			"might": 66
+		},
+		{
+			"character_id": "liu_yu",
+			"charisma": 95,
+			"intelligence": 86,
+			"leadership": 84,
+			"might": 40
+		},
+		{
+			"character_id": "gongsun_du",
+			"charisma": 77,
+			"intelligence": 86,
+			"leadership": 91,
+			"might": 78
+		},
+		{
+			"character_id": "zhang_yang",
+			"charisma": 83,
+			"intelligence": 75,
+			"leadership": 79,
+			"might": 84
+		},
+		{
+			"character_id": "liu_yao",
+			"charisma": 84,
+			"intelligence": 77,
+			"leadership": 78,
+			"might": 68
+		},
+		{
+			"character_id": "shi_xie",
+			"charisma": 93,
+			"intelligence": 92,
+			"leadership": 88,
+			"might": 38
+		},
+		{
+			"character_id": "zhang_xiu",
+			"charisma": 82,
+			"intelligence": 75,
+			"leadership": 89,
+			"might": 91
+		},
+		{
+			"character_id": "cao_ren",
+			"charisma": 83,
+			"intelligence": 80,
+			"leadership": 94,
+			"might": 90
+		},
+		{
+			"character_id": "xu_chu",
+			"charisma": 82,
+			"intelligence": 56,
+			"leadership": 76,
+			"might": 98
+		},
+		{
+			"character_id": "guo_jia",
+			"charisma": 88,
+			"intelligence": 97,
+			"leadership": 70,
+			"might": 30
+		},
+		{
+			"character_id": "yan_liang",
+			"charisma": 70,
+			"intelligence": 51,
+			"leadership": 81,
+			"might": 95
+		},
+		{
+			"character_id": "wen_chou",
+			"charisma": 69,
+			"intelligence": 54,
+			"leadership": 80,
+			"might": 94
+		},
+		{
+			"character_id": "tian_feng",
+			"charisma": 79,
+			"intelligence": 94,
+			"leadership": 75,
+			"might": 36
+		},
+		{
+			"character_id": "ju_shou",
+			"charisma": 84,
+			"intelligence": 95,
+			"leadership": 88,
+			"might": 43
+		},
+		{
+			"character_id": "zhang_he",
+			"charisma": 83,
+			"intelligence": 85,
+			"leadership": 95,
+			"might": 93
+		},
+		{
+			"character_id": "yu_jin",
+			"charisma": 75,
+			"intelligence": 77,
+			"leadership": 94,
+			"might": 88
+		},
+		{
+			"character_id": "ma_chao",
+			"charisma": 92,
+			"intelligence": 68,
+			"leadership": 91,
+			"might": 98
+		},
+		{
+			"character_id": "sun_quan",
+			"charisma": 95,
+			"intelligence": 92,
+			"leadership": 96,
+			"might": 84
+		},
+		{
+			"character_id": "zhuge_liang",
+			"charisma": 95,
+			"intelligence": 99,
+			"leadership": 97,
+			"might": 32
+		},
+		{
+			"character_id": "lu_su",
+			"charisma": 92,
+			"intelligence": 95,
+			"leadership": 90,
+			"might": 70
+		},
+		{
+			"character_id": "lv_meng",
+			"charisma": 88,
+			"intelligence": 95,
+			"leadership": 96,
+			"might": 93
+		},
+		{
+			"character_id": "gan_ning",
+			"charisma": 85,
+			"intelligence": 87,
+			"leadership": 91,
+			"might": 97
+		},
+		{
+			"character_id": "cheng_pu",
+			"charisma": 89,
+			"intelligence": 79,
+			"leadership": 94,
+			"might": 92
+		},
+		{
+			"character_id": "pang_tong",
+			"charisma": 89,
+			"intelligence": 97,
+			"leadership": 76,
+			"might": 34
+		},
+		{
+			"character_id": "huang_zhong",
+			"charisma": 84,
+			"intelligence": 68,
+			"leadership": 92,
+			"might": 98
+		},
+		{
+			"character_id": "wei_yan",
+			"charisma": 77,
+			"intelligence": 80,
+			"leadership": 95,
+			"might": 96
+		},
+		{
+			"character_id": "liu_zhang",
+			"charisma": 84,
+			"intelligence": 63,
+			"leadership": 69,
+			"might": 42
+		},
+		{
+			"character_id": "xun_you",
+			"might": 36,
+			"intelligence": 94,
+			"leadership": 78,
+			"charisma": 84
+		},
+		{
+			"character_id": "xu_huang",
+			"might": 88,
+			"intelligence": 79,
+			"leadership": 88,
+			"charisma": 77
+		},
+		{
+			"character_id": "yue_jin",
+			"might": 91,
+			"intelligence": 73,
+			"leadership": 86,
+			"charisma": 77
+		},
+		{
+			"character_id": "cao_hong",
+			"might": 84,
+			"intelligence": 72,
+			"leadership": 82,
+			"charisma": 78
+		},
+		{
+			"character_id": "shen_pei",
+			"might": 55,
+			"intelligence": 81,
+			"leadership": 84,
+			"charisma": 74
+		},
+		{
+			"character_id": "xu_you",
+			"might": 40,
+			"intelligence": 87,
+			"leadership": 70,
+			"charisma": 72
+		},
+		{
+			"character_id": "gao_lan",
+			"might": 84,
+			"intelligence": 73,
+			"leadership": 80,
+			"charisma": 74
+		},
+		{
+			"character_id": "zou_jing",
+			"might": 65,
+			"intelligence": 65,
+			"leadership": 70,
+			"charisma": 65
+		},
+		{
+			"character_id": "zhang_shiping",
+			"might": 50,
+			"intelligence": 65,
+			"leadership": 50,
+			"charisma": 70
+		},
+		{
+			"character_id": "su_shuang",
+			"might": 50,
+			"intelligence": 65,
+			"leadership": 50,
+			"charisma": 70
+		}
+	],
+	"scale": {
+		"maximum": 100,
+		"minimum": 0
+	},
+	"schema_version": 1
+}

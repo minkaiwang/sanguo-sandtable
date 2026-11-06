@@ -1,0 +1,1326 @@
+{
+  "schema_version": 4,
+  "templates": [
+    {
+      "id": "blank_sandbox",
+      "scenario_id": "custom_blank",
+      "scenario_kind": "custom",
+      "era_label": "完全自定义",
+      "featured_character_ids": [],
+      "history_layer_ids": [],
+      "name": "空白沙盘",
+      "year": null,
+      "title": "未命名沙盘",
+      "map_id": "map_three_kingdoms_alpha",
+      "map_geometry_version": 4,
+      "description": "收回全部人物并清除战术标记，从人物背包自由摆放自己的三国。",
+      "scenario_source": "完全自定义",
+      "basis_note": "开局留白，剧情、阵营行动与胜负条件由玩家安排。",
+      "factions": [],
+      "character_assignments": [],
+      "city_ownership": [],
+      "placements": [],
+      "annotations": []
+    },
+    {
+      "id": "yellow_turban_liu_bei_184",
+      "scenario_id": "yellow_turban_184",
+      "scenario_kind": "historical_start",
+      "era_label": "黄巾起义",
+      "featured_character_ids": [
+        "liu_bei",
+        "guan_yu",
+        "zhang_fei",
+        "zhang_jiao",
+        "zhang_bao",
+        "zhang_liang",
+        "bo_cai",
+        "he_jin",
+        "huangfu_song",
+        "zhu_jun",
+        "lu_zhi",
+        "cao_cao",
+        "sun_jian",
+        "liu_hong",
+        "zhang_mancheng"
+      ],
+      "history_layer_ids": [
+        "context_184"
+      ],
+      "name": "184 年·黄巾起义",
+      "year": 184,
+      "title": "我的三国·黄巾起义",
+      "map_id": "map_three_kingdoms_alpha",
+      "map_geometry_version": 4,
+      "description": "中平元年多线战局：汉灵帝与何进坐镇洛阳，刘关张从涿县起步，张角与卢植对峙广宗，波才、皇甫嵩、朱儁、曹操汇于长社，张曼成据宛，孙坚随军进入南阳。",
+      "scenario_source": "中平元年黄巾战事与涿县演义开篇",
+      "basis_note": "把中平元年年内战线合入同一沙盘：涿县承接演义开篇，洛阳、广宗、长社与宛承接黄巾战事。",
+      "take_guidance": {
+        "label": "早期补位",
+        "hint": "程普可随孙坚进入讨逆战线；先拿到手边，再决定落点。",
+        "take_character_ids": [
+          "cheng_pu"
+        ],
+        "conditional_character_ids": []
+      },
+      "factions": [
+        {
+          "id": "play_liu_bei_start",
+          "name": "刘备起步队",
+          "color": "#0077BB"
+        },
+        {
+          "id": "play_zhang_jiao_start",
+          "name": "张角黄巾",
+          "color": "#EE7733"
+        },
+        {
+          "id": "play_han_court_184",
+          "name": "汉廷讨逆军",
+          "color": "#228833"
+        }
+      ],
+      "character_assignments": [
+        {
+          "character_id": "liu_bei",
+          "faction_id": "play_liu_bei_start"
+        },
+        {
+          "character_id": "guan_yu",
+          "faction_id": "play_liu_bei_start"
+        },
+        {
+          "character_id": "zhang_fei",
+          "faction_id": "play_liu_bei_start"
+        },
+        {
+          "character_id": "zhang_jiao",
+          "faction_id": "play_zhang_jiao_start"
+        },
+        {
+          "character_id": "bo_cai",
+          "faction_id": "play_zhang_jiao_start"
+        },
+        {
+          "character_id": "zhang_mancheng",
+          "faction_id": "play_zhang_jiao_start"
+        },
+        {
+          "character_id": "liu_hong",
+          "faction_id": "play_han_court_184"
+        },
+        {
+          "character_id": "he_jin",
+          "faction_id": "play_han_court_184"
+        },
+        {
+          "character_id": "huangfu_song",
+          "faction_id": "play_han_court_184"
+        },
+        {
+          "character_id": "zhu_jun",
+          "faction_id": "play_han_court_184"
+        },
+        {
+          "character_id": "lu_zhi",
+          "faction_id": "play_han_court_184"
+        },
+        {
+          "character_id": "cao_cao",
+          "faction_id": "play_han_court_184"
+        },
+        {
+          "character_id": "sun_jian",
+          "faction_id": "play_han_court_184"
+        }
+      ],
+      "city_ownership": [
+        {
+          "place_id": "luoyang",
+          "faction_id": "play_han_court_184"
+        }
+      ],
+      "placements": [
+        {
+          "character_id": "liu_bei",
+          "place_id": "zhuo"
+        },
+        {
+          "character_id": "guan_yu",
+          "place_id": "zhuo"
+        },
+        {
+          "character_id": "zhang_fei",
+          "place_id": "zhuo"
+        },
+        {
+          "character_id": "zhang_jiao",
+          "place_id": "guangzong"
+        },
+        {
+          "character_id": "bo_cai",
+          "place_id": "changshe_battlefield"
+        },
+        {
+          "character_id": "zhang_mancheng",
+          "place_id": "wan"
+        },
+        {
+          "character_id": "liu_hong",
+          "place_id": "luoyang"
+        },
+        {
+          "character_id": "he_jin",
+          "place_id": "luoyang"
+        },
+        {
+          "character_id": "huangfu_song",
+          "place_id": "changshe_battlefield"
+        },
+        {
+          "character_id": "zhu_jun",
+          "place_id": "changshe_battlefield"
+        },
+        {
+          "character_id": "lu_zhi",
+          "place_id": "guangzong"
+        },
+        {
+          "character_id": "cao_cao",
+          "place_id": "changshe_battlefield"
+        },
+        {
+          "character_id": "sun_jian",
+          "place_id": "wan"
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "id": "coalition_190",
+      "scenario_id": "coalition_190",
+      "scenario_kind": "historical_start",
+      "era_label": "讨董联盟",
+      "featured_character_ids": [
+        "dong_zhuo",
+        "lv_bu",
+        "wang_yun",
+        "hua_xiong",
+        "cao_cao",
+        "yuan_shao",
+        "yuan_shu",
+        "sun_jian",
+        "liu_xie",
+        "han_fu"
+      ],
+      "history_layer_ids": [
+        "context_190"
+      ],
+      "name": "190 年·讨董联盟",
+      "year": 190,
+      "title": "我的三国·讨董联盟",
+      "map_id": "map_three_kingdoms_alpha",
+      "map_geometry_version": 4,
+      "description": "初平元年，汉献帝与王允随朝廷迁往长安，董卓留屯洛阳；韩馥治冀州于邺，曹操从陈留起兵，袁绍以南皮为根基并屯兵河内，袁术与孙坚在鲁阳会合。",
+      "scenario_source": "初平元年讨董局势",
+      "basis_note": "长安承接汉廷迁都，邺表示韩馥的冀州治所；怀县表示袁绍屯兵的河内方向，南皮保留其渤海根基，鲁阳表示袁术与孙坚的会合点。",
+      "take_guidance": {
+        "label": "讨董补位",
+        "hint": "程普可随孙坚进入讨董战线；张郃先留作河北方向的外围可选人物。",
+        "take_character_ids": [
+          "cheng_pu"
+        ],
+        "conditional_character_ids": [
+          "zhang_he"
+        ]
+      },
+      "factions": [
+        {
+          "id": "play_dong_zhuo_190",
+          "name": "董卓军",
+          "color": "#AA3377"
+        },
+        {
+          "id": "play_han_court_190",
+          "name": "汉廷",
+          "color": "#667788"
+        },
+        {
+          "id": "play_cao_cao_190",
+          "name": "曹操军",
+          "color": "#0077BB"
+        },
+        {
+          "id": "play_yuan_shao_190",
+          "name": "袁绍军",
+          "color": "#EE7733"
+        },
+        {
+          "id": "play_yuan_shu_190",
+          "name": "袁术军",
+          "color": "#CC3311"
+        },
+        {
+          "id": "play_sun_jian_190",
+          "name": "孙坚军",
+          "color": "#009988"
+        },
+        {
+          "id": "play_han_fu_190",
+          "name": "韩馥军",
+          "color": "#117733"
+        }
+      ],
+      "character_assignments": [
+        {
+          "character_id": "dong_zhuo",
+          "faction_id": "play_dong_zhuo_190"
+        },
+        {
+          "character_id": "lv_bu",
+          "faction_id": "play_dong_zhuo_190"
+        },
+        {
+          "character_id": "liu_xie",
+          "faction_id": "play_han_court_190"
+        },
+        {
+          "character_id": "wang_yun",
+          "faction_id": "play_han_court_190"
+        },
+        {
+          "character_id": "cao_cao",
+          "faction_id": "play_cao_cao_190"
+        },
+        {
+          "character_id": "xiahou_dun",
+          "faction_id": "play_cao_cao_190"
+        },
+        {
+          "character_id": "xiahou_yuan",
+          "faction_id": "play_cao_cao_190"
+        },
+        {
+          "character_id": "yuan_shao",
+          "faction_id": "play_yuan_shao_190"
+        },
+        {
+          "character_id": "yuan_shu",
+          "faction_id": "play_yuan_shu_190"
+        },
+        {
+          "character_id": "sun_jian",
+          "faction_id": "play_sun_jian_190"
+        },
+        {
+          "character_id": "huang_gai",
+          "faction_id": "play_sun_jian_190"
+        },
+        {
+          "character_id": "han_fu",
+          "faction_id": "play_han_fu_190"
+        }
+      ],
+      "city_ownership": [
+        {
+          "place_id": "luoyang",
+          "faction_id": "play_dong_zhuo_190"
+        },
+        {
+          "place_id": "changan",
+          "faction_id": "play_han_court_190"
+        },
+        {
+          "place_id": "chenliu",
+          "faction_id": "play_cao_cao_190"
+        },
+        {
+          "place_id": "nanpi",
+          "faction_id": "play_yuan_shao_190"
+        },
+        {
+          "place_id": "luyang",
+          "faction_id": "play_yuan_shu_190"
+        },
+        {
+          "place_id": "ye",
+          "faction_id": "play_han_fu_190"
+        }
+      ],
+      "placements": [
+        {
+          "character_id": "dong_zhuo",
+          "place_id": "luoyang"
+        },
+        {
+          "character_id": "lv_bu",
+          "place_id": "luoyang"
+        },
+        {
+          "character_id": "liu_xie",
+          "place_id": "changan"
+        },
+        {
+          "character_id": "wang_yun",
+          "place_id": "changan"
+        },
+        {
+          "character_id": "cao_cao",
+          "place_id": "chenliu"
+        },
+        {
+          "character_id": "xiahou_dun",
+          "place_id": "chenliu"
+        },
+        {
+          "character_id": "xiahou_yuan",
+          "place_id": "chenliu"
+        },
+        {
+          "character_id": "yuan_shao",
+          "place_id": "huai"
+        },
+        {
+          "character_id": "yuan_shu",
+          "place_id": "luyang"
+        },
+        {
+          "character_id": "sun_jian",
+          "place_id": "luyang"
+        },
+        {
+          "character_id": "huang_gai",
+          "place_id": "luyang"
+        },
+        {
+          "character_id": "han_fu",
+          "place_id": "ye"
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "id": "warlords_196",
+      "scenario_id": "warlords_196",
+      "scenario_kind": "historical_start",
+      "era_label": "群雄割据",
+      "featured_character_ids": [
+        "liu_bei",
+        "guan_yu",
+        "zhang_fei",
+        "cao_cao",
+        "xun_yu",
+        "lv_bu",
+        "yuan_shao",
+        "yuan_shu",
+        "sun_ce",
+        "li_jue",
+        "guo_si",
+        "zhang_yang",
+        "zhang_xiu",
+        "gongsun_du"
+      ],
+      "history_layer_ids": [
+        "context_196"
+      ],
+      "name": "196 年·群雄割据",
+      "year": 196,
+      "title": "我的三国·群雄割据",
+      "map_id": "map_three_kingdoms_alpha",
+      "map_geometry_version": 4,
+      "description": "建安元年秋，曹操以许县为中心，袁绍、吕布、袁术、孙策与刘表各据一方，刘关张在小沛聚拢兵马；李傕、郭汜争于关中，张杨据河内，张绣屯宛，公孙度经营辽东。",
+      "scenario_source": "建安元年许县迁都、刘备屯小沛与群雄割据局势",
+      "basis_note": "小沛表示刘备驻屯；长安合并表示李傕、郭汜的关中冲突方向，怀县、宛与襄平分别承接张杨、张绣与公孙度的区域支点。",
+      "take_guidance": {
+        "label": "群雄补位",
+        "hint": "先拿一组你要推演的战区人物；手边卡不会自动上图。",
+        "take_character_ids": [
+          "cao_ren",
+          "guo_jia",
+          "tian_feng",
+          "ju_shou",
+          "zhang_he",
+          "yu_jin"
+        ],
+        "conditional_character_ids": [
+          "liu_zhang",
+          "cheng_pu",
+          "huang_zhong"
+        ]
+      },
+      "factions": [
+        {
+          "id": "play_cao_cao_196",
+          "name": "曹操军",
+          "color": "#0077BB"
+        },
+        {
+          "id": "play_liu_bei_196",
+          "name": "刘备军",
+          "color": "#009988"
+        },
+        {
+          "id": "play_yuan_shao_196",
+          "name": "袁绍军",
+          "color": "#EE7733"
+        },
+        {
+          "id": "play_lv_bu_196",
+          "name": "吕布军",
+          "color": "#AA4499"
+        },
+        {
+          "id": "play_yuan_shu_196",
+          "name": "袁术军",
+          "color": "#CC3311"
+        },
+        {
+          "id": "play_sun_ce_196",
+          "name": "孙策军",
+          "color": "#33BBEE"
+        },
+        {
+          "id": "play_liu_biao_196",
+          "name": "刘表军",
+          "color": "#332288"
+        },
+        {
+          "id": "play_li_jue_196",
+          "name": "李傕军",
+          "color": "#882255"
+        },
+        {
+          "id": "play_guo_si_196",
+          "name": "郭汜军",
+          "color": "#999933"
+        },
+        {
+          "id": "play_zhang_yang_196",
+          "name": "张杨军",
+          "color": "#117733"
+        },
+        {
+          "id": "play_zhang_xiu_196",
+          "name": "张绣军",
+          "color": "#CC6677"
+        },
+        {
+          "id": "play_gongsun_du_196",
+          "name": "公孙度军",
+          "color": "#667788"
+        }
+      ],
+      "character_assignments": [
+        {
+          "character_id": "cao_cao",
+          "faction_id": "play_cao_cao_196"
+        },
+        {
+          "character_id": "xiahou_dun",
+          "faction_id": "play_cao_cao_196"
+        },
+        {
+          "character_id": "xiahou_yuan",
+          "faction_id": "play_cao_cao_196"
+        },
+        {
+          "character_id": "xun_yu",
+          "faction_id": "play_cao_cao_196"
+        },
+        {
+          "character_id": "liu_bei",
+          "faction_id": "play_liu_bei_196"
+        },
+        {
+          "character_id": "guan_yu",
+          "faction_id": "play_liu_bei_196"
+        },
+        {
+          "character_id": "zhang_fei",
+          "faction_id": "play_liu_bei_196"
+        },
+        {
+          "character_id": "yuan_shao",
+          "faction_id": "play_yuan_shao_196"
+        },
+        {
+          "character_id": "lv_bu",
+          "faction_id": "play_lv_bu_196"
+        },
+        {
+          "character_id": "chen_gong",
+          "faction_id": "play_lv_bu_196"
+        },
+        {
+          "character_id": "zhang_liao",
+          "faction_id": "play_lv_bu_196"
+        },
+        {
+          "character_id": "yuan_shu",
+          "faction_id": "play_yuan_shu_196"
+        },
+        {
+          "character_id": "sun_ce",
+          "faction_id": "play_sun_ce_196"
+        },
+        {
+          "character_id": "zhou_yu",
+          "faction_id": "play_sun_ce_196"
+        },
+        {
+          "character_id": "taishi_ci",
+          "faction_id": "play_sun_ce_196"
+        },
+        {
+          "character_id": "huang_gai",
+          "faction_id": "play_sun_ce_196"
+        },
+        {
+          "character_id": "liu_biao",
+          "faction_id": "play_liu_biao_196"
+        },
+        {
+          "character_id": "li_jue",
+          "faction_id": "play_li_jue_196"
+        },
+        {
+          "character_id": "guo_si",
+          "faction_id": "play_guo_si_196"
+        },
+        {
+          "character_id": "zhang_yang",
+          "faction_id": "play_zhang_yang_196"
+        },
+        {
+          "character_id": "zhang_xiu",
+          "faction_id": "play_zhang_xiu_196"
+        },
+        {
+          "character_id": "gongsun_du",
+          "faction_id": "play_gongsun_du_196"
+        }
+      ],
+      "city_ownership": [
+        {
+          "place_id": "xuchang",
+          "faction_id": "play_cao_cao_196"
+        },
+        {
+          "place_id": "xiaopei",
+          "faction_id": "play_liu_bei_196"
+        },
+        {
+          "place_id": "ye",
+          "faction_id": "play_yuan_shao_196"
+        },
+        {
+          "place_id": "xiapi",
+          "faction_id": "play_lv_bu_196"
+        },
+        {
+          "place_id": "shouchun",
+          "faction_id": "play_yuan_shu_196"
+        },
+        {
+          "place_id": "wu",
+          "faction_id": "play_sun_ce_196"
+        },
+        {
+          "place_id": "xiangyang",
+          "faction_id": "play_liu_biao_196"
+        },
+        {
+          "place_id": "huai",
+          "faction_id": "play_zhang_yang_196"
+        },
+        {
+          "place_id": "wan",
+          "faction_id": "play_zhang_xiu_196"
+        },
+        {
+          "place_id": "xiangping",
+          "faction_id": "play_gongsun_du_196"
+        }
+      ],
+      "placements": [
+        {
+          "character_id": "cao_cao",
+          "place_id": "xuchang"
+        },
+        {
+          "character_id": "xiahou_dun",
+          "place_id": "xuchang"
+        },
+        {
+          "character_id": "xiahou_yuan",
+          "place_id": "xuchang"
+        },
+        {
+          "character_id": "xun_yu",
+          "place_id": "xuchang"
+        },
+        {
+          "character_id": "liu_bei",
+          "place_id": "xiaopei"
+        },
+        {
+          "character_id": "guan_yu",
+          "place_id": "xiaopei"
+        },
+        {
+          "character_id": "zhang_fei",
+          "place_id": "xiaopei"
+        },
+        {
+          "character_id": "yuan_shao",
+          "place_id": "ye"
+        },
+        {
+          "character_id": "lv_bu",
+          "place_id": "xiapi"
+        },
+        {
+          "character_id": "chen_gong",
+          "place_id": "xiapi"
+        },
+        {
+          "character_id": "zhang_liao",
+          "place_id": "xiapi"
+        },
+        {
+          "character_id": "yuan_shu",
+          "place_id": "shouchun"
+        },
+        {
+          "character_id": "sun_ce",
+          "place_id": "wu"
+        },
+        {
+          "character_id": "zhou_yu",
+          "place_id": "wu"
+        },
+        {
+          "character_id": "taishi_ci",
+          "place_id": "wu"
+        },
+        {
+          "character_id": "huang_gai",
+          "place_id": "wu"
+        },
+        {
+          "character_id": "liu_biao",
+          "place_id": "xiangyang"
+        },
+        {
+          "character_id": "li_jue",
+          "place_id": "changan"
+        },
+        {
+          "character_id": "guo_si",
+          "place_id": "changan"
+        },
+        {
+          "character_id": "zhang_yang",
+          "place_id": "huai"
+        },
+        {
+          "character_id": "zhang_xiu",
+          "place_id": "wan"
+        },
+        {
+          "character_id": "gongsun_du",
+          "place_id": "xiangping"
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "id": "guandu_200",
+      "scenario_id": "guandu_200",
+      "scenario_kind": "historical_start",
+      "era_label": "官渡对峙",
+      "featured_character_ids": [
+        "liu_bei",
+        "guan_yu",
+        "zhang_fei",
+        "cao_cao",
+        "yuan_shao",
+        "sun_ce",
+        "liu_xie",
+        "zhang_xiu"
+      ],
+      "history_layer_ids": [
+        "context_200"
+      ],
+      "name": "200 年·官渡对峙",
+      "year": 200,
+      "title": "我的三国·官渡对峙",
+      "map_id": "map_three_kingdoms_alpha",
+      "map_geometry_version": 4,
+      "description": "曹操与袁绍隔官渡相持，张绣随曹军进入战线，汉献帝留在许昌；刘备、关羽、张飞在汝南方向重新会合，江东、荆州、汉中与凉州仍各有力量。",
+      "scenario_source": "建安五年官渡战局、刘备赴汝南及同时期群雄格局的沙盘开局抽象",
+      "basis_note": "许昌城池归曹操军，汉献帝以独立汉廷人物同驻；张绣按归曹后的参战经历置于官渡。汝南承接刘备军活动，合肥、新野分别归曹操军与刘表军；马腾、韩遂分别落在武都、允吾。",
+      "take_guidance": {
+        "label": "官渡补位",
+        "hint": "补位仍先拿原八人，不会自动上图。新增可选：徐晃、乐进补前线，荀攸、曹洪补营中；许攸、高览补袁方人物，审配供后方军务推演。按姓名搜索后逐张拿取，角色提示不代表精确驻地或必然归降。",
+        "take_character_ids": [
+          "cao_ren",
+          "xu_chu",
+          "guo_jia",
+          "yan_liang",
+          "wen_chou",
+          "tian_feng",
+          "ju_shou",
+          "zhang_he"
+        ],
+        "conditional_character_ids": [
+          "yu_jin",
+          "liu_zhang",
+          "huang_zhong",
+          "cheng_pu",
+          "sun_quan",
+          "lu_su",
+          "lv_meng",
+          "gan_ning",
+          "xun_you",
+          "xu_huang",
+          "yue_jin",
+          "cao_hong",
+          "shen_pei",
+          "xu_you",
+          "gao_lan"
+        ]
+      },
+      "factions": [
+        {
+          "id": "play_cao_cao_200",
+          "name": "曹操军",
+          "color": "#0077BB"
+        },
+        {
+          "id": "play_han_court_200",
+          "name": "汉廷",
+          "color": "#667788"
+        },
+        {
+          "id": "play_yuan_shao_200",
+          "name": "袁绍军",
+          "color": "#EE7733"
+        },
+        {
+          "id": "play_liu_bei_200",
+          "name": "刘备军",
+          "color": "#33BBEE"
+        },
+        {
+          "id": "play_jiangdong_200",
+          "name": "江东军",
+          "color": "#009988"
+        },
+        {
+          "id": "play_liu_biao_200",
+          "name": "刘表军",
+          "color": "#AA4499"
+        },
+        {
+          "id": "play_zhang_lu_200",
+          "name": "张鲁军",
+          "color": "#CC3311"
+        },
+        {
+          "id": "play_liangzhou_200",
+          "name": "凉州军",
+          "color": "#BBBB44"
+        }
+      ],
+      "character_assignments": [
+        {
+          "character_id": "cao_cao",
+          "faction_id": "play_cao_cao_200"
+        },
+        {
+          "character_id": "xiahou_dun",
+          "faction_id": "play_cao_cao_200"
+        },
+        {
+          "character_id": "xiahou_yuan",
+          "faction_id": "play_cao_cao_200"
+        },
+        {
+          "character_id": "xun_yu",
+          "faction_id": "play_cao_cao_200"
+        },
+        {
+          "character_id": "zhang_liao",
+          "faction_id": "play_cao_cao_200"
+        },
+        {
+          "character_id": "jia_xu",
+          "faction_id": "play_cao_cao_200"
+        },
+        {
+          "character_id": "zhang_xiu",
+          "faction_id": "play_cao_cao_200"
+        },
+        {
+          "character_id": "liu_xie",
+          "faction_id": "play_han_court_200"
+        },
+        {
+          "character_id": "yuan_shao",
+          "faction_id": "play_yuan_shao_200"
+        },
+        {
+          "character_id": "liu_bei",
+          "faction_id": "play_liu_bei_200"
+        },
+        {
+          "character_id": "guan_yu",
+          "faction_id": "play_liu_bei_200"
+        },
+        {
+          "character_id": "zhang_fei",
+          "faction_id": "play_liu_bei_200"
+        },
+        {
+          "character_id": "sun_ce",
+          "faction_id": "play_jiangdong_200"
+        },
+        {
+          "character_id": "zhou_yu",
+          "faction_id": "play_jiangdong_200"
+        },
+        {
+          "character_id": "taishi_ci",
+          "faction_id": "play_jiangdong_200"
+        },
+        {
+          "character_id": "huang_gai",
+          "faction_id": "play_jiangdong_200"
+        },
+        {
+          "character_id": "liu_biao",
+          "faction_id": "play_liu_biao_200"
+        },
+        {
+          "character_id": "zhang_lu",
+          "faction_id": "play_zhang_lu_200"
+        },
+        {
+          "character_id": "ma_teng",
+          "faction_id": "play_liangzhou_200"
+        },
+        {
+          "character_id": "han_sui",
+          "faction_id": "play_liangzhou_200"
+        }
+      ],
+      "city_ownership": [
+        {
+          "place_id": "xuchang",
+          "faction_id": "play_cao_cao_200"
+        },
+        {
+          "place_id": "chenliu",
+          "faction_id": "play_cao_cao_200"
+        },
+        {
+          "place_id": "ye",
+          "faction_id": "play_yuan_shao_200"
+        },
+        {
+          "place_id": "runan",
+          "faction_id": "play_liu_bei_200"
+        },
+        {
+          "place_id": "hefei",
+          "faction_id": "play_cao_cao_200"
+        },
+        {
+          "place_id": "xinye",
+          "faction_id": "play_liu_biao_200"
+        },
+        {
+          "place_id": "wu",
+          "faction_id": "play_jiangdong_200"
+        },
+        {
+          "place_id": "xiangyang",
+          "faction_id": "play_liu_biao_200"
+        },
+        {
+          "place_id": "hanzhong",
+          "faction_id": "play_zhang_lu_200"
+        },
+        {
+          "place_id": "wudu",
+          "faction_id": "play_liangzhou_200"
+        },
+        {
+          "place_id": "yunwu",
+          "faction_id": "play_liangzhou_200"
+        }
+      ],
+      "placements": [
+        {
+          "character_id": "cao_cao",
+          "place_id": "guandu_battlefield"
+        },
+        {
+          "character_id": "xiahou_dun",
+          "place_id": "chenliu"
+        },
+        {
+          "character_id": "xiahou_yuan",
+          "place_id": "chenliu"
+        },
+        {
+          "character_id": "xun_yu",
+          "place_id": "xuchang"
+        },
+        {
+          "character_id": "zhang_liao",
+          "place_id": "guandu_battlefield"
+        },
+        {
+          "character_id": "jia_xu",
+          "place_id": "xuchang"
+        },
+        {
+          "character_id": "zhang_xiu",
+          "place_id": "guandu_battlefield"
+        },
+        {
+          "character_id": "liu_xie",
+          "place_id": "xuchang"
+        },
+        {
+          "character_id": "yuan_shao",
+          "place_id": "guandu_battlefield"
+        },
+        {
+          "character_id": "liu_bei",
+          "place_id": "runan"
+        },
+        {
+          "character_id": "guan_yu",
+          "place_id": "runan"
+        },
+        {
+          "character_id": "zhang_fei",
+          "place_id": "runan"
+        },
+        {
+          "character_id": "sun_ce",
+          "place_id": "wu"
+        },
+        {
+          "character_id": "zhou_yu",
+          "place_id": "wu"
+        },
+        {
+          "character_id": "taishi_ci",
+          "place_id": "wu"
+        },
+        {
+          "character_id": "huang_gai",
+          "place_id": "wu"
+        },
+        {
+          "character_id": "liu_biao",
+          "place_id": "xiangyang"
+        },
+        {
+          "character_id": "zhang_lu",
+          "place_id": "hanzhong"
+        },
+        {
+          "character_id": "ma_teng",
+          "place_id": "wudu"
+        },
+        {
+          "character_id": "han_sui",
+          "place_id": "yunwu"
+        }
+      ],
+      "annotations": []
+    },
+    {
+      "id": "red_cliffs_208",
+      "scenario_id": "red_cliffs_208",
+      "scenario_kind": "historical_start",
+      "era_label": "赤壁前夜",
+      "featured_character_ids": [
+        "liu_bei",
+        "guan_yu",
+        "zhang_fei",
+        "zhao_yun",
+        "cao_cao",
+        "zhou_yu",
+        "huang_gai",
+        "liu_xie"
+      ],
+      "history_layer_ids": [
+        "context_208"
+      ],
+      "name": "208 年·赤壁前夜",
+      "year": 208,
+      "title": "我的三国·赤壁前夜",
+      "map_id": "map_three_kingdoms_alpha",
+      "map_geometry_version": 4,
+      "description": "曹操军进入荆州，汉献帝留在许昌，刘备一行驻于鄂县樊口，江东水军集结柴桑；玩家可以维持孙刘协力，也可以重排人物、城池与攻守关系。",
+      "scenario_source": "建安十三年荆州易势与赤壁交战前局面的沙盘开局抽象",
+      "basis_note": "许昌城池归曹操军，汉献帝以独立汉廷人物同驻；樊口承接刘备军的江夏水路驻点，周瑜、黄盖集结柴桑，马腾、韩遂分别落在武都、允吾。",
+      "take_guidance": {
+        "label": "赤壁补位",
+        "hint": "先拿曹操、孙刘两线的关键人物；每张卡仍由你决定落点。",
+        "take_character_ids": [
+          "cao_ren",
+          "xu_chu",
+          "zhang_he",
+          "yu_jin",
+          "sun_quan",
+          "zhuge_liang",
+          "lu_su",
+          "cheng_pu"
+        ],
+        "conditional_character_ids": [
+          "lv_meng",
+          "gan_ning",
+          "ma_chao",
+          "liu_zhang",
+          "huang_zhong",
+          "wei_yan",
+          "pang_tong"
+        ]
+      },
+      "factions": [
+        {
+          "id": "play_cao_cao_208",
+          "name": "曹操军",
+          "color": "#0077BB"
+        },
+        {
+          "id": "play_han_court_208",
+          "name": "汉廷",
+          "color": "#667788"
+        },
+        {
+          "id": "play_liu_bei_208",
+          "name": "刘备军",
+          "color": "#009988"
+        },
+        {
+          "id": "play_jiangdong_208",
+          "name": "江东水军",
+          "color": "#EE7733"
+        },
+        {
+          "id": "play_zhang_lu_208",
+          "name": "张鲁军",
+          "color": "#AA4499"
+        },
+        {
+          "id": "play_liangzhou_208",
+          "name": "凉州军",
+          "color": "#BBBB44"
+        }
+      ],
+      "character_assignments": [
+        {
+          "character_id": "cao_cao",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "character_id": "xiahou_dun",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "character_id": "xiahou_yuan",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "character_id": "xun_yu",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "character_id": "zhang_liao",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "character_id": "jia_xu",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "character_id": "liu_xie",
+          "faction_id": "play_han_court_208"
+        },
+        {
+          "character_id": "liu_bei",
+          "faction_id": "play_liu_bei_208"
+        },
+        {
+          "character_id": "guan_yu",
+          "faction_id": "play_liu_bei_208"
+        },
+        {
+          "character_id": "zhang_fei",
+          "faction_id": "play_liu_bei_208"
+        },
+        {
+          "character_id": "zhao_yun",
+          "faction_id": "play_liu_bei_208"
+        },
+        {
+          "character_id": "jian_yong",
+          "faction_id": "play_liu_bei_208"
+        },
+        {
+          "character_id": "sun_qian",
+          "faction_id": "play_liu_bei_208"
+        },
+        {
+          "character_id": "zhou_yu",
+          "faction_id": "play_jiangdong_208"
+        },
+        {
+          "character_id": "huang_gai",
+          "faction_id": "play_jiangdong_208"
+        },
+        {
+          "character_id": "zhang_lu",
+          "faction_id": "play_zhang_lu_208"
+        },
+        {
+          "character_id": "ma_teng",
+          "faction_id": "play_liangzhou_208"
+        },
+        {
+          "character_id": "han_sui",
+          "faction_id": "play_liangzhou_208"
+        }
+      ],
+      "city_ownership": [
+        {
+          "place_id": "xuchang",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "place_id": "xiangyang",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "place_id": "jiangling",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "place_id": "xiapi",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "place_id": "xinye",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "place_id": "hefei",
+          "faction_id": "play_cao_cao_208"
+        },
+        {
+          "place_id": "chaisang",
+          "faction_id": "play_jiangdong_208"
+        },
+        {
+          "place_id": "wu",
+          "faction_id": "play_jiangdong_208"
+        },
+        {
+          "place_id": "hanzhong",
+          "faction_id": "play_zhang_lu_208"
+        },
+        {
+          "place_id": "wudu",
+          "faction_id": "play_liangzhou_208"
+        },
+        {
+          "place_id": "yunwu",
+          "faction_id": "play_liangzhou_208"
+        }
+      ],
+      "placements": [
+        {
+          "character_id": "cao_cao",
+          "place_id": "xiangyang"
+        },
+        {
+          "character_id": "xiahou_dun",
+          "place_id": "xiangyang"
+        },
+        {
+          "character_id": "xiahou_yuan",
+          "place_id": "jiangling"
+        },
+        {
+          "character_id": "xun_yu",
+          "place_id": "xuchang"
+        },
+        {
+          "character_id": "zhang_liao",
+          "place_id": "xiangyang"
+        },
+        {
+          "character_id": "jia_xu",
+          "place_id": "jiangling"
+        },
+        {
+          "character_id": "liu_xie",
+          "place_id": "xuchang"
+        },
+        {
+          "character_id": "liu_bei",
+          "place_id": "fankou"
+        },
+        {
+          "character_id": "guan_yu",
+          "place_id": "fankou"
+        },
+        {
+          "character_id": "zhang_fei",
+          "place_id": "fankou"
+        },
+        {
+          "character_id": "zhao_yun",
+          "place_id": "fankou"
+        },
+        {
+          "character_id": "jian_yong",
+          "place_id": "fankou"
+        },
+        {
+          "character_id": "sun_qian",
+          "place_id": "fankou"
+        },
+        {
+          "character_id": "zhou_yu",
+          "place_id": "chaisang"
+        },
+        {
+          "character_id": "huang_gai",
+          "place_id": "chaisang"
+        },
+        {
+          "character_id": "zhang_lu",
+          "place_id": "hanzhong"
+        },
+        {
+          "character_id": "ma_teng",
+          "place_id": "wudu"
+        },
+        {
+          "character_id": "han_sui",
+          "place_id": "yunwu"
+        }
+      ],
+      "annotations": []
+    }
+  ]
+}

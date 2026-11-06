@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "map_id": "map_three_kingdoms_alpha",
+  "map_geometry_version": 4,
+  "semantic_layer": "project_cartographic_context",
+  "verification_status": "not_historical_boundary",
+  "interaction_policy": "read_only_no_hit_no_snap_no_route_no_save",
+  "coordinate_policy": "editorial_lon_lat_anchor_for_overview_only",
+  "records": [
+    {
+      "id": "context_western_regions",
+      "kind": "macro_region",
+      "label": "西域方向",
+      "lon": 95.4,
+      "lat": 41.2,
+      "min_zoom": 0.45,
+      "max_zoom": 0.659,
+      "rotation_deg": -6.0,
+      "priority": 2,
+      "source_note": "项目制图方向提示；不表示西域边界、郡县范围或可交互地点。"
+    },
+    {
+      "id": "context_hexi_corridor",
+      "kind": "macro_region",
+      "label": "河西走廊",
+      "lon": 98.8,
+      "lat": 39.1,
+      "min_zoom": 0.45,
+      "max_zoom": 0.879,
+      "rotation_deg": -7.0,
+      "priority": 1,
+      "source_note": "依据范围 B 地形作全国尺度制图锚点；不表示汉末道路、行政边界或古城位置。"
+    },
+    {
+      "id": "context_southern_steppe",
+      "kind": "macro_region",
+      "label": "漠南",
+      "lon": 109.0,
+      "lat": 42.7,
+      "min_zoom": 0.45,
+      "max_zoom": 0.659,
+      "rotation_deg": 0.0,
+      "priority": 2,
+      "source_note": "项目制图区域提示；不表示族群、政权、驻牧范围或固定边界。"
+    },
+    {
+      "id": "context_liaodong_direction",
+      "kind": "macro_region",
+      "label": "辽东方向",
+      "lon": 124.2,
+      "lat": 41.1,
+      "min_zoom": 0.45,
+      "max_zoom": 0.879,
+      "rotation_deg": 5.0,
+      "priority": 1,
+      "source_note": "项目制图方向提示；不把辽东区域压缩为襄平城址或郡治中心。"
+    },
+    {
+      "id": "context_eastern_plateau",
+      "kind": "macro_region",
+      "label": "青藏东缘",
+      "lon": 96.9,
+      "lat": 32.3,
+      "min_zoom": 0.45,
+      "max_zoom": 0.659,
+      "rotation_deg": -5.0,
+      "priority": 2,
+      "source_note": "现代自然地理阅读提示，仅描述地形方向，不表示汉末行政或族群边界。"
+    },
+    {
+      "id": "context_nanzhong",
+      "kind": "macro_region",
+      "label": "南中",
+      "lon": 101.0,
+      "lat": 24.0,
+      "min_zoom": 0.45,
+      "max_zoom": 0.879,
+      "rotation_deg": -3.0,
+      "priority": 1,
+      "source_note": "项目制图区域提示；不表示南中边界、郡治或势力领土。"
+    },
+    {
+      "id": "context_lingnan",
+      "kind": "macro_region",
+      "label": "岭南",
+      "lon": 112.6,
+      "lat": 22.8,
+      "min_zoom": 0.45,
+      "max_zoom": 0.659,
+      "rotation_deg": 0.0,
+      "priority": 2,
+      "source_note": "项目制图区域提示；不表示汉末郡县边界或任何自动领土。"
+    },
+    {
+      "id": "context_bohai_sea",
+      "kind": "water_body",
+      "label": "渤海",
+      "lon": 120.2,
+      "lat": 38.3,
+      "min_zoom": 0.45,
+      "max_zoom": 0.879,
+      "rotation_deg": 4.0,
+      "priority": 1,
+      "source_note": "依据 Natural Earth 现代海陆轮廓作水域阅读锚点，不复原汉末海岸线。"
+    },
+    {
+      "id": "context_east_sea",
+      "kind": "water_body",
+      "label": "东海",
+      "lon": 126.2,
+      "lat": 31.0,
+      "min_zoom": 0.45,
+      "max_zoom": 0.879,
+      "rotation_deg": 7.0,
+      "priority": 1,
+      "source_note": "依据 Natural Earth 现代海陆轮廓作水域阅读锚点，不复原汉末海岸线。"
+    },
+    {
+      "id": "context_south_sea",
+      "kind": "water_body",
+      "label": "南海",
+      "lon": 118.4,
+      "lat": 19.7,
+      "min_zoom": 0.45,
+      "max_zoom": 0.879,
+      "rotation_deg": 0.0,
+      "priority": 1,
+      "source_note": "依据 Natural Earth 现代海陆轮廓作水域阅读锚点，不复原汉末海岸线。"
+    }
+  ]
+}
