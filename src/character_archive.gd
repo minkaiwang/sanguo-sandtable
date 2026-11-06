@@ -3,7 +3,7 @@ extends Control
 
 ## 首页进入的正式人物志。
 ##
-## 只读当前目录 v5／87 人，提供搜索、分类与人物小传浏览。
+## 提供当前人物目录的搜索、分类与小传浏览。
 ## 本场景不访问 user://，也不提供人物编辑、拖放或保存。
 
 const DataScript = preload("res://src/character_archive_data.gd")
@@ -15,7 +15,7 @@ const LIST_MIN_WIDTH := 410
 const LIST_MAX_WIDTH := 570
 const LIST_WIDTH_RATIO := 0.35
 const DETAIL_NAMEPLATE_SIZE := 128
-## 人物志是 80 人长名单，内部 Tree 的系统滑轨需要比普通次级列表更宽。
+## 人物志名单较长，内部 Tree 的系统滑轨需要比普通次级列表更宽。
 ## 轨道本身保留整条命中区，首／尾按钮作为不依赖精确瞄准的备用入口。
 const ARCHIVE_VERTICAL_SCROLLBAR_WIDTH := 40.0
 const ARCHIVE_VERTICAL_SCROLLBAR_MIN_GRAB := 84.0

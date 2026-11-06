@@ -1,16 +1,21 @@
-param([Parameter(Mandatory = $true)][string]$GodotPath, [switch]$Capture)
+param([Parameter(Mandatory = $true)][string]$GodotPath, [switch]$Capture, [string]$TestName = '')
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 . (Join-Path $PSScriptRoot 'test_state_guard.ps1')
 $stateRoot = Join-Path $env:APPDATA 'Godot/app_userdata/天下沙盘'
-$lock = Enter-AutomatedTestRunLock -StateRoot $stateRoot
-$baseline = Get-FormalStateSnapshot -StateRoot $stateRoot -IncludeBytes
+$GodotPath = (Get-Command -Name $GodotPath -CommandType Application -ErrorAction Stop).Source
+$lock = $null
+$baseline = $null
 $failures = @()
 try {
+    $lock = Enter-AutomatedTestRunLock -StateRoot $stateRoot
+    $baseline = Get-FormalStateSnapshot -StateRoot $stateRoot -IncludeBytes
     Initialize-GodotProjectImport -GodotPath $GodotPath -ProjectRoot $projectRoot
     $cases = if ($Capture) { @('test_basic_release.gd') } else {
-        @('test_corpus_first_three_runtime.gd', 'test_backpack_drag_contract.gd', 'test_history.gd', 'test_basic_release.gd')
+        @(Get-ChildItem -LiteralPath (Join-Path $projectRoot 'tests') -Filter 'test_*.gd' -File | Sort-Object Name | ForEach-Object Name)
     }
+    if ($TestName) { $cases = @($cases | Where-Object { $_ -eq $TestName }) }
+    if ($cases.Count -eq 0) { throw '没有匹配的测试文件' }
     foreach ($case in $cases) {
         Clear-AutomatedTestState -StateRoot $stateRoot
         $launch = @('--path', $projectRoot, '--quit-after', '1800', '--script', "res://tests/$case")
@@ -27,9 +32,11 @@ try {
 }
 finally {
     try {
-        $changes = @(Compare-FormalStateSnapshot -Before $baseline -After (Get-FormalStateSnapshot -StateRoot $stateRoot))
-        if ($changes.Count -gt 0) { Restore-FormalStateSnapshot -StateRoot $stateRoot -Snapshot $baseline; $failures += 'formal_state' }
-        Clear-AutomatedTestState -StateRoot $stateRoot
+        if ($null -ne $baseline) {
+            $changes = @(Compare-FormalStateSnapshot -Before $baseline -After (Get-FormalStateSnapshot -StateRoot $stateRoot))
+            if ($changes.Count -gt 0) { Restore-FormalStateSnapshot -StateRoot $stateRoot -Snapshot $baseline; $failures += 'formal_state' }
+            Clear-AutomatedTestState -StateRoot $stateRoot
+        }
     }
     finally { Exit-AutomatedTestRunLock -LockStream $lock }
 }

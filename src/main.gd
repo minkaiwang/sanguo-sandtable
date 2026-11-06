@@ -210,7 +210,7 @@ const SAVE_ICON := preload(SAVE_ICON_PATH)
 const SYSTEM_ICON_SIZE := 16
 
 var characters: Array = []
-var runtime_profile_id := "formal_v17_catalog_v5"
+var runtime_profile_id := "formal_v%d_catalog_v%d" % [SAVE_VERSION, CURRENT_CHARACTER_CATALOG_VERSION]
 var runtime_scenario_templates_path := SCENARIO_TEMPLATES_PATH
 var isolated_catalog_v4_runtime := false
 var runtime_character_data_root := "res://data"
@@ -597,9 +597,13 @@ func _automated_primary_recovery_prompt_requested(user_args: PackedStringArray) 
 
 
 func _configure_runtime_profile(user_args: PackedStringArray) -> void:
-	isolated_catalog_v4_runtime = M4_B7_RUNTIME_ARGUMENT in user_args
+	var preview_available := (
+		FileAccess.file_exists(M4_B7_CHARACTER_DATA_ROOT.path_join("character_catalog.json"))
+		and FileAccess.file_exists("res://prototypes/m4_b7_catalog_v4_sandbox_preview/scenario_templates_v4_compatible.json")
+	)
+	isolated_catalog_v4_runtime = M4_B7_RUNTIME_ARGUMENT in user_args and preview_available
 	if not isolated_catalog_v4_runtime:
-		runtime_profile_id = "formal_v17_catalog_v5"
+		runtime_profile_id = "formal_v%d_catalog_v%d" % [SAVE_VERSION, CURRENT_CHARACTER_CATALOG_VERSION]
 		runtime_scenario_templates_path = SCENARIO_TEMPLATES_PATH
 		runtime_character_data_root = "res://data"
 		runtime_save_version = SAVE_VERSION
@@ -3185,7 +3189,7 @@ func _build_new_sandbox_dialogs() -> void:
 	column.add_theme_constant_override("separation", 8)
 	new_sandbox_dialog.add_child(column)
 	var hint := Label.new()
-	hint.text = "模板设置开局人物、位置和玩法分组；个人模板还能保存玩家标记。进入后按你的安排继续推演。"
+	hint.text = "选择一个开局，预览人物和势力。进入后可以继续调整。"
 	hint.add_theme_color_override("font_color", UiThemeScript.TEXT_HINT)
 	column.add_child(hint)
 	var row := HBoxContainer.new()
@@ -3271,7 +3275,7 @@ func _build_new_sandbox_dialogs() -> void:
 	new_sandbox_confirmation_dialog = ConfirmationDialog.new()
 	new_sandbox_confirmation_dialog.title = "开始新的沙盘？"
 	new_sandbox_confirmation_dialog.min_size = Vector2i(640, 330)
-	new_sandbox_confirmation_dialog.ok_button_text = "保护当前沙盘并新建"
+	new_sandbox_confirmation_dialog.ok_button_text = "备份并新建"
 	new_sandbox_confirmation_dialog.cancel_button_text = "返回"
 	new_sandbox_confirmation_dialog.confirmed.connect(_confirm_create_selected_sandbox)
 	new_sandbox_confirmation_dialog.canceled.connect(_return_to_new_sandbox_dialog)
@@ -4347,7 +4351,7 @@ func _request_create_selected_sandbox() -> void:
 	if new_sandbox_title_input != null:
 		new_sandbox_title_input.set_text(_pending_new_sandbox_title)
 	new_sandbox_dialog.hide()
-	new_sandbox_confirmation_dialog.dialog_text = "即将开始：%s%s\n新沙盘：%s\n开局规模：%d 个势力 · %d 位预摆人物 · %d 座归属城池 · %d 个标记\n重点人物：%s\n势力人数：%s\n进入后仍可自由移动人物、调整势力和城池归属。\n\n当前沙盘：%s · %d 位人物 · %d 个标记\n确认后先自动备份当前沙盘，再建立新沙盘；人物收藏、命名快照和个人模板继续保留，也可撤销本次新建。" % [
+	new_sandbox_confirmation_dialog.dialog_text = "即将开始：%s%s\n新沙盘：%s\n开局：%d 个势力 · %d 位人物 · %d 座城池 · %d 个标记\n\n当前沙盘：%s · %d 位人物 · %d 个标记\n\n将先备份当前沙盘，再开始新局。\n收藏、命名快照和个人模板会保留；本次新建可撤销。" % [
 		"我的模板 · " if _pending_scenario_template_source == "personal" else "",
 		_scenario_template_display_label(template),
 		_pending_new_sandbox_title,
@@ -4355,8 +4359,6 @@ func _request_create_selected_sandbox() -> void:
 		int((candidate.get("placements", {}) as Dictionary).size()),
 		int((template.get("city_ownership", []) as Array).size()),
 		int((candidate.get("annotations", {}) as Dictionary).size()),
-		_template_featured_readiness_summary(template),
-		_template_faction_count_summary(template),
 		str(sandbox_metadata.get("title", "未命名沙盘")),
 		placements.size(),
 		annotations.size()
